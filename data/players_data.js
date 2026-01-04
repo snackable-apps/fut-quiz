@@ -4187,5 +4187,19 @@ const PLAYERS_DATA = [
     "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "hard"
+  },
+  {
+    "name": "Silvio Piola",
+    "nationality": "Itália",
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["Serie A"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1913-09-29",
+    "preferredFoot": "Direito",
+    "height": 178,
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "hard"
   }
 ];
