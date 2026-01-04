@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const gameInfo = document.getElementById("game-info");
   const currentDifficultyEl = document.getElementById("current-difficulty");
   const difficultyButtons = document.querySelectorAll(".difficulty-btn");
+  const dataUpdateDateEl = document.getElementById("data-update-date");
   
   // Autocomplete state
   let autocompleteState = {
@@ -48,6 +49,17 @@ document.addEventListener("DOMContentLoaded", () => {
       // Show difficulty selector
       if (difficultySection) {
         difficultySection.style.display = 'block';
+      }
+      
+      // Display data update date
+      if (typeof DATA_UPDATE_DATE !== 'undefined' && dataUpdateDateEl) {
+        const updateDate = new Date(DATA_UPDATE_DATE);
+        const formattedDate = updateDate.toLocaleDateString('pt-BR', { 
+          day: '2-digit', 
+          month: '2-digit', 
+          year: 'numeric' 
+        });
+        dataUpdateDateEl.textContent = formattedDate;
       }
       
       // Auto-initialize game with easy difficulty
