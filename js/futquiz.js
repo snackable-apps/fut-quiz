@@ -110,6 +110,17 @@ document.addEventListener("DOMContentLoaded", () => {
     return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
   }
 
+  function calculateAge(dateOfBirth) {
+    const today = new Date();
+    const birthDate = new Date(dateOfBirth);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
+
   function getDailyPlayer(difficulty) {
     const dateString = getDateString();
     const date = new Date(dateString);
@@ -163,29 +174,35 @@ document.addEventListener("DOMContentLoaded", () => {
   function compareProperties(secret, guess) {
     const comparisons = {};
     
-    // Position - categorical
-    comparisons.position = secret.position === guess.position ? 'match' : 'different';
-    
     // Nationality - can be array or string
     const nationalityComparison = compareArrayProperty(secret.nationality, guess.nationality);
     comparisons.nationality = nationalityComparison;
     
-    // League - categorical
-    comparisons.league = secret.league === guess.league ? 'match' : 'different';
+    // Current Club - categorical
+    comparisons.currentClub = secret.currentClub === guess.currentClub ? 'match' : 'different';
     
-    // Club - categorical
-    comparisons.club = secret.club === guess.club ? 'match' : 'different';
+    // Leagues Played - array
+    const leaguesComparison = compareArrayProperty(secret.leaguesPlayed, guess.leaguesPlayed);
+    comparisons.leaguesPlayed = leaguesComparison;
     
-    // Age - numeric (inverted: if guess is higher, secret is lower, so tell user to guess lower)
-    if (secret.age === guess.age) {
+    // Primary Position - categorical
+    comparisons.primaryPosition = secret.primaryPosition === guess.primaryPosition ? 'match' : 'different';
+    
+    // Age - calculate from dateOfBirth and compare (numeric)
+    const secretAge = calculateAge(secret.dateOfBirth);
+    const guessAge = calculateAge(guess.dateOfBirth);
+    if (secretAge === guessAge) {
       comparisons.age = 'match';
-    } else if (guess.age > secret.age) {
+    } else if (guessAge > secretAge) {
       comparisons.age = 'lower'; // Guess is higher, so secret is lower - tell user to guess lower
     } else {
       comparisons.age = 'higher'; // Guess is lower, so secret is higher - tell user to guess higher
     }
     
-    // Height - numeric (inverted: if guess is higher, secret is lower, so tell user to guess lower)
+    // Preferred Foot - categorical
+    comparisons.preferredFoot = secret.preferredFoot === guess.preferredFoot ? 'match' : 'different';
+    
+    // Height - numeric
     if (secret.height === guess.height) {
       comparisons.height = 'match';
     } else if (guess.height > secret.height) {
@@ -194,32 +211,38 @@ document.addEventListener("DOMContentLoaded", () => {
       comparisons.height = 'higher'; // Guess is lower, so secret is higher - tell user to guess higher
     }
     
-    // Goals - numeric (inverted: if guess is higher, secret is lower, so tell user to guess lower)
-    if (secret.goals === guess.goals) {
-      comparisons.goals = 'match';
-    } else if (guess.goals > secret.goals) {
-      comparisons.goals = 'lower'; // Guess is higher, so secret is lower - tell user to guess lower
-    } else {
-      comparisons.goals = 'higher'; // Guess is lower, so secret is higher - tell user to guess higher
-    }
+    // Individual Titles - array (just check if there's overlap)
+    const individualTitlesComparison = compareArrayProperty(secret.individualTitles, guess.individualTitles);
+    comparisons.individualTitles = individualTitlesComparison;
+    
+    // Team Titles - array (just check if there's overlap)
+    const teamTitlesComparison = compareArrayProperty(secret.teamTitles, guess.teamTitles);
+    comparisons.teamTitles = teamTitlesComparison;
+    
+    // Played World Cup - boolean/categorical
+    comparisons.playedWorldCup = secret.playedWorldCup === guess.playedWorldCup ? 'match' : 'different';
     
     return comparisons;
   }
 
   function getFeedbackText(property, comparison, value) {
     const propertyNames = {
-      'position': 'Posição',
       'nationality': 'Nacionalidade',
-      'league': 'Liga',
-      'club': 'Clube',
+      'currentClub': 'Clube Atual',
+      'leaguesPlayed': 'Ligas Jogadas',
+      'primaryPosition': 'Posição Primária',
       'age': 'Idade',
+      'preferredFoot': 'Pé Preferido',
       'height': 'Altura',
-      'goals': 'Gols'
+      'individualTitles': 'Títulos Individuais',
+      'teamTitles': 'Títulos Coletivos',
+      'playedWorldCup': 'Jogou Copa?'
     };
     const propertyName = propertyNames[property] || property;
     
-    // Handle array properties (nationality)
-    if (property === 'nationality' && typeof comparison === 'object' && comparison.matches !== undefined) {
+    // Handle array properties (nationality, leaguesPlayed, individualTitles, teamTitles)
+    const arrayProperties = ['nationality', 'leaguesPlayed', 'individualTitles', 'teamTitles'];
+    if (arrayProperties.includes(property) && typeof comparison === 'object' && comparison.matches !== undefined) {
       const valueArray = normalizeProperty(value);
       const parts = [];
       
@@ -276,8 +299,8 @@ document.addEventListener("DOMContentLoaded", () => {
       return `${value} cm`;
     } else if (property === 'age') {
       return `${value} anos`;
-    } else if (property === 'goals') {
-      return `${value} gols`;
+    } else if (property === 'playedWorldCup') {
+      return value ? 'Sim' : 'Não';
     }
     return value;
   }
@@ -306,13 +329,16 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Add all property feedbacks
     const properties = [
-      { key: 'position', value: guess.position, comparison: comparisons.position },
       { key: 'nationality', value: guess.nationality, comparison: comparisons.nationality },
-      { key: 'league', value: guess.league, comparison: comparisons.league },
-      { key: 'club', value: guess.club, comparison: comparisons.club },
-      { key: 'age', value: guess.age, comparison: comparisons.age },
+      { key: 'currentClub', value: guess.currentClub, comparison: comparisons.currentClub },
+      { key: 'leaguesPlayed', value: guess.leaguesPlayed, comparison: comparisons.leaguesPlayed },
+      { key: 'primaryPosition', value: guess.primaryPosition, comparison: comparisons.primaryPosition },
+      { key: 'age', value: calculateAge(guess.dateOfBirth), comparison: comparisons.age },
+      { key: 'preferredFoot', value: guess.preferredFoot, comparison: comparisons.preferredFoot },
       { key: 'height', value: guess.height, comparison: comparisons.height },
-      { key: 'goals', value: guess.goals, comparison: comparisons.goals }
+      { key: 'individualTitles', value: guess.individualTitles, comparison: comparisons.individualTitles },
+      { key: 'teamTitles', value: guess.teamTitles, comparison: comparisons.teamTitles },
+      { key: 'playedWorldCup', value: guess.playedWorldCup, comparison: comparisons.playedWorldCup }
     ];
     
     properties.forEach(prop => {
@@ -437,18 +463,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function getAnswerFeedbackText(property, value) {
     const propertyNames = {
-      'position': 'Posição',
       'nationality': 'Nacionalidade',
-      'league': 'Liga',
-      'club': 'Clube',
+      'currentClub': 'Clube Atual',
+      'leaguesPlayed': 'Ligas Jogadas',
+      'primaryPosition': 'Posição Primária',
       'age': 'Idade',
+      'preferredFoot': 'Pé Preferido',
       'height': 'Altura',
-      'goals': 'Gols'
+      'individualTitles': 'Títulos Individuais',
+      'teamTitles': 'Títulos Coletivos',
+      'playedWorldCup': 'Jogou Copa?'
     };
     const propertyName = propertyNames[property] || property;
     
     // Handle array properties
-    if (property === 'nationality' && Array.isArray(value)) {
+    if (Array.isArray(value)) {
       return propertyName + ': ' + value.join(', ');
     }
     
@@ -470,13 +499,16 @@ document.addEventListener("DOMContentLoaded", () => {
           <span class="animal-name-inline">${secret.name}</span>
           <span>😞</span>
         </span>
-        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('position', secret.position)}</span>
         <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('nationality', secret.nationality)}</span>
-        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('league', secret.league)}</span>
-        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('club', secret.club)}</span>
-        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('age', secret.age)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('currentClub', secret.currentClub)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('leaguesPlayed', secret.leaguesPlayed)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('primaryPosition', secret.primaryPosition)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('age', calculateAge(secret.dateOfBirth))}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('preferredFoot', secret.preferredFoot)}</span>
         <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('height', secret.height)}</span>
-        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('goals', secret.goals)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('individualTitles', secret.individualTitles)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('teamTitles', secret.teamTitles)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('playedWorldCup', secret.playedWorldCup)}</span>
       </div>
     `;
     guessesContainer.insertBefore(answerCard, guessesContainer.firstChild);
