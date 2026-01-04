@@ -332,7 +332,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     const lowerQuery = query.toLowerCase().trim();
     return PLAYERS.filter(player => 
-      player.name.toLowerCase().startsWith(lowerQuery) &&
+      player.name.toLowerCase().includes(lowerQuery) &&
       !gameState.guesses.some(g => g.name === player.name)
     ).slice(0, 10); // Limit to 10 results
   }
