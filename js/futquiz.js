@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
       'age': 'Idade',
       'preferredFoot': 'Pé Preferido',
       'height': 'Altura',
-      'individualTitles': 'Títulos Individuais',
+      'individualTitles': 'Prêmios Individuais',
       'teamTitles': 'Títulos Coletivos',
       'playedWorldCup': 'Jogou Copa?'
     };
@@ -478,7 +478,7 @@ document.addEventListener("DOMContentLoaded", () => {
       'age': 'Idade',
       'preferredFoot': 'Pé Preferido',
       'height': 'Altura',
-      'individualTitles': 'Títulos Individuais',
+      'individualTitles': 'Prêmios Individuais',
       'teamTitles': 'Títulos Coletivos',
       'playedWorldCup': 'Jogou Copa?'
     };
