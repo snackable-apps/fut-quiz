@@ -369,7 +369,8 @@ document.addEventListener("DOMContentLoaded", () => {
       return [];
     }
     const lowerQuery = query.toLowerCase().trim();
-    return PLAYERS.filter(player => 
+    // Allow guessing any player from the entire database
+    return ALL_PLAYERS.filter(player => 
       player.name.toLowerCase().includes(lowerQuery) &&
       !gameState.guesses.some(g => g.name === player.name)
     ).slice(0, 10); // Limit to 10 results
@@ -428,7 +429,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const inputValue = playerInput.value.trim();
     if (!inputValue) return;
     
-    const guess = PLAYERS.find(p => p.name.toLowerCase() === inputValue.toLowerCase());
+    // Allow guessing any player from the entire database
+    const guess = ALL_PLAYERS.find(p => p.name.toLowerCase() === inputValue.toLowerCase());
     if (!guess) {
       alert('Jogador não encontrado. Por favor, selecione das sugestões.');
       return;
@@ -449,12 +451,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Check if solved
     if (guess.name === gameState.secretPlayer.name) {
       endGame(true);
-      return;
-    }
-    
-    // Check if reached max guesses
-    if (gameState.guesses.length >= MAX_GUESSES) {
-      endGame(false);
       return;
     }
     
@@ -565,7 +561,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const guessText = gameState.guesses.length === 1 ? 'palpite' : 'palpites';
         gameStatusEl.textContent = `😔 Você desistiu após ${gameState.guesses.length} ${guessText}`;
       } else {
-        gameStatusEl.textContent = `❌ Fim de Jogo! Você usou todos os ${MAX_GUESSES} palpites.`;
+        // This shouldn't happen anymore since there's no limit, but keep for safety
+        const guessText = gameState.guesses.length === 1 ? 'palpite' : 'palpites';
+        gameStatusEl.textContent = `❌ Fim de Jogo após ${gameState.guesses.length} ${guessText}`;
         // Display answer when losing (not when giving up, as giveUp() already displays it)
         displayAnswer();
       }
@@ -658,15 +656,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateGameState() {
-    guessCountEl.textContent = `${gameState.guesses.length}/${MAX_GUESSES}`;
+    // Just show the count, no limit
+    guessCountEl.textContent = gameState.guesses.length;
     
-    // Show remaining guesses warning
-    const remaining = MAX_GUESSES - gameState.guesses.length;
-    if (!gameState.isSolved && !gameState.isGameOver && remaining <= 3 && remaining > 0) {
-      const guessText = remaining === 1 ? 'palpite' : 'palpites';
-      gameStatusEl.textContent = `⚠️ ${remaining} ${guessText} restantes!`;
-      gameStatusEl.className = 'warning';
-    } else if (!gameState.isSolved && !gameState.isGameOver) {
+    // Clear status message if game is still active
+    if (!gameState.isSolved && !gameState.isGameOver) {
       gameStatusEl.textContent = '';
       gameStatusEl.className = '';
     }
@@ -683,7 +677,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Clear previous guesses
     guessesContainer.innerHTML = '';
-    guessCountEl.textContent = `0/${MAX_GUESSES}`;
+    guessCountEl.textContent = '0';
     gameStatusEl.textContent = '';
     gameStatusEl.className = '';
     guessSection.style.display = 'flex';
