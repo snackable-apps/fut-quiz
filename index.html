@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FutQuiz: o quiz diário da bola | Snackable Apps</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+  <link rel="stylesheet" href="css/futquiz.css" />
+
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKPC7JY0E7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MKPC7JY0E7');
+  </script>
+
+</head>
+<body>
+  <header>
+    <h1>⚽ FutQuiz: o quiz diário da bola</h1>
+    <p>Adivinhe o jogador usando pistas lógicas!</p>
+    <a href="https://snackable-apps.github.io/snackable-apps-hub/">← Voltar ao menu</a>
+  </header>
+
+  <main>
+    <!-- Difficulty Selection -->
+    <div class="difficulty-section" id="difficulty-section" style="display: none;">
+      <h3>Selecione a Dificuldade</h3>
+      <div class="difficulty-buttons">
+        <button class="difficulty-btn" data-difficulty="easy">Fácil</button>
+        <button class="difficulty-btn" data-difficulty="medium">Médio</button>
+        <button class="difficulty-btn" data-difficulty="hard">Difícil</button>
+      </div>
+    </div>
+
+    <!-- Game Info -->
+    <div class="game-info" id="game-info" style="display: none;">
+      <p>Cada dia, um jogador secreto é selecionado. Faça palpites e use as pistas para encontrá-lo!</p>
+      <div class="game-stats">
+        <span>Dificuldade: <strong id="current-difficulty">Fácil</strong></span>
+        <span>Palpites: <strong id="guess-count">0</strong></span>
+        <span id="game-status"></span>
+      </div>
+    </div>
+
+    <!-- Guess Input -->
+    <div class="guess-section" id="guess-section">
+      <label for="player-input">Faça um palpite:</label>
+      <div class="autocomplete-wrapper">
+        <input type="text" id="player-input" placeholder="Digite o nome de um jogador..." autocomplete="off" />
+        <div id="autocomplete-dropdown" class="autocomplete-dropdown"></div>
+      </div>
+      <div class="button-group">
+        <button id="submit-guess" class="submit-btn">Enviar Palpite</button>
+        <button id="give-up-btn" class="submit-btn secondary">Desistir</button>
+      </div>
+    </div>
+
+    <!-- Share Results -->
+    <div class="share-section" id="share-section" style="display: none;">
+      <button id="share-results-btn" class="submit-btn">Compartilhar Resultados</button>
+    </div>
+
+    <!-- Guesses History -->
+    <div class="guesses-container" id="guesses-container">
+      <!-- Guesses will be displayed here -->
+    </div>
+
+    <!-- How to Play -->
+    <div class="how-to-play">
+      <h3>Como Jogar</h3>
+      <ul>
+        <li><strong>✅ Igual:</strong> A propriedade corresponde ao jogador secreto</li>
+        <li><strong>🔼 Maior:</strong> O jogador secreto tem um valor maior (chute maior)</li>
+        <li><strong>🔽 Menor:</strong> O jogador secreto tem um valor menor (chute menor)</li>
+        <li><strong>❌ Diferente:</strong> A propriedade não corresponde</li>
+      </ul>
+    </div>
+  </main>
+
+  <script src="data/players_data.js"></script>
+  <script src="js/futquiz.js"></script>
+</body>
+</html>
+

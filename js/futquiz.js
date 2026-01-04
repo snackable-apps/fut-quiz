@@ -1,0 +1,726 @@
+document.addEventListener("DOMContentLoaded", () => {
+  // Constants
+  const MAX_GUESSES = 10;
+
+  // DOM Elements
+  const playerInput = document.getElementById("player-input");
+  const autocompleteDropdown = document.getElementById("autocomplete-dropdown");
+  const submitBtn = document.getElementById("submit-guess");
+  const giveUpBtn = document.getElementById("give-up-btn");
+  const shareResultsBtn = document.getElementById("share-results-btn");
+  const shareSection = document.getElementById("share-section");
+  const guessesContainer = document.getElementById("guesses-container");
+  const guessCountEl = document.getElementById("guess-count");
+  const gameStatusEl = document.getElementById("game-status");
+  const guessSection = document.getElementById("guess-section");
+  const difficultySection = document.getElementById("difficulty-section");
+  const gameInfo = document.getElementById("game-info");
+  const currentDifficultyEl = document.getElementById("current-difficulty");
+  const difficultyButtons = document.querySelectorAll(".difficulty-btn");
+  
+  // Autocomplete state
+  let autocompleteState = {
+    selectedIndex: -1,
+    filteredPlayers: [],
+    isOpen: false
+  };
+
+  // Data storage
+  let ALL_PLAYERS = [];
+  let PLAYERS = []; // Filtered by difficulty
+  let currentDifficulty = 'easy';
+
+  // Load embedded data
+  function loadPlayersData() {
+    try {
+      // Check if PLAYERS_DATA is available (loaded from data/players_data.js)
+      if (typeof PLAYERS_DATA === 'undefined' || !PLAYERS_DATA || PLAYERS_DATA.length === 0) {
+        throw new Error('Dados dos jogadores não carregados. Por favor, verifique se data/players_data.js está incluído.');
+      }
+      
+      ALL_PLAYERS = PLAYERS_DATA;
+      console.log('Jogadores carregados:', ALL_PLAYERS.length);
+      
+      // Set default difficulty and initialize game
+      filterByDifficulty('easy');
+      console.log('Jogadores filtrados para fácil:', PLAYERS.length);
+      
+      // Show difficulty selector
+      if (difficultySection) {
+        difficultySection.style.display = 'block';
+      }
+      
+      // Auto-initialize game with easy difficulty
+      if (PLAYERS.length > 0) {
+        initializeGame();
+        console.log('Jogo inicializado');
+      } else {
+        console.error('Nenhum jogador disponível para dificuldade fácil');
+        alert('Nenhum jogador disponível. Por favor, tente uma dificuldade diferente.');
+      }
+    } catch (error) {
+      console.error('Erro ao carregar dados dos jogadores:', error);
+      alert('Falha ao carregar dados dos jogadores: ' + error.message + '. Por favor, atualize a página.');
+    }
+  }
+
+  // Filter players by difficulty
+  function filterByDifficulty(difficulty) {
+    currentDifficulty = difficulty;
+    PLAYERS = ALL_PLAYERS.filter(player => {
+      if (difficulty === 'easy') {
+        return player.difficulty === 'easy';
+      } else if (difficulty === 'medium') {
+        return player.difficulty === 'easy' || player.difficulty === 'medium';
+      } else { // hard
+        return true; // All players
+      }
+    });
+    
+    // Update UI
+    const difficultyText = {
+      'easy': 'Fácil',
+      'medium': 'Médio',
+      'hard': 'Difícil'
+    };
+    currentDifficultyEl.textContent = difficultyText[difficulty] || difficulty;
+    difficultyButtons.forEach(btn => {
+      if (btn.dataset.difficulty === difficulty) {
+        btn.classList.add('selected');
+      } else {
+        btn.classList.remove('selected');
+      }
+    });
+  }
+
+  // Game State
+  let gameState = {
+    secretPlayer: null,
+    guesses: [],
+    isSolved: false,
+    isGameOver: false,
+    gaveUp: false,
+    currentDate: null,
+    difficulty: 'easy'
+  };
+
+  // Utility Functions
+  function getDateString() {
+    const date = new Date();
+    return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+  }
+
+  function getDailyPlayer(difficulty) {
+    const dateString = getDateString();
+    const date = new Date(dateString);
+    const dayOfYear = Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+    
+    // Add difficulty offset to ensure different difficulties get different players on the same day
+    // but same difficulty always gets the same player on the same day
+    let difficultyOffset = 0;
+    if (difficulty === 'medium') {
+      difficultyOffset = 1000; // Large offset to ensure different selection
+    } else if (difficulty === 'hard') {
+      difficultyOffset = 2000; // Different offset for hard
+    }
+    
+    const index = (dayOfYear + difficultyOffset) % PLAYERS.length;
+    return PLAYERS[index];
+  }
+
+  // Helper function to normalize property value (handle both string and array)
+  function normalizeProperty(value) {
+    if (Array.isArray(value)) {
+      return value;
+    }
+    return [value];
+  }
+
+  // Helper function to compare array properties
+  function compareArrayProperty(secretValue, guessValue) {
+    const secretArray = normalizeProperty(secretValue);
+    const guessArray = normalizeProperty(guessValue);
+    
+    const matches = [];
+    const nonMatches = [];
+    
+    guessArray.forEach(guessItem => {
+      if (secretArray.includes(guessItem)) {
+        matches.push(guessItem);
+      } else {
+        nonMatches.push(guessItem);
+      }
+    });
+    
+    return {
+      matches: matches,
+      nonMatches: nonMatches,
+      hasMatch: matches.length > 0,
+      allMatch: matches.length === guessArray.length && matches.length === secretArray.length
+    };
+  }
+
+  function compareProperties(secret, guess) {
+    const comparisons = {};
+    
+    // Position - categorical
+    comparisons.position = secret.position === guess.position ? 'match' : 'different';
+    
+    // Nationality - can be array or string
+    const nationalityComparison = compareArrayProperty(secret.nationality, guess.nationality);
+    comparisons.nationality = nationalityComparison;
+    
+    // League - categorical
+    comparisons.league = secret.league === guess.league ? 'match' : 'different';
+    
+    // Club - categorical
+    comparisons.club = secret.club === guess.club ? 'match' : 'different';
+    
+    // Age - numeric (inverted: if guess is higher, secret is lower, so tell user to guess lower)
+    if (secret.age === guess.age) {
+      comparisons.age = 'match';
+    } else if (guess.age > secret.age) {
+      comparisons.age = 'lower'; // Guess is higher, so secret is lower - tell user to guess lower
+    } else {
+      comparisons.age = 'higher'; // Guess is lower, so secret is higher - tell user to guess higher
+    }
+    
+    // Height - numeric (inverted: if guess is higher, secret is lower, so tell user to guess lower)
+    if (secret.height === guess.height) {
+      comparisons.height = 'match';
+    } else if (guess.height > secret.height) {
+      comparisons.height = 'lower'; // Guess is higher, so secret is lower - tell user to guess lower
+    } else {
+      comparisons.height = 'higher'; // Guess is lower, so secret is higher - tell user to guess higher
+    }
+    
+    // Goals - numeric (inverted: if guess is higher, secret is lower, so tell user to guess lower)
+    if (secret.goals === guess.goals) {
+      comparisons.goals = 'match';
+    } else if (guess.goals > secret.goals) {
+      comparisons.goals = 'lower'; // Guess is higher, so secret is lower - tell user to guess lower
+    } else {
+      comparisons.goals = 'higher'; // Guess is lower, so secret is higher - tell user to guess higher
+    }
+    
+    return comparisons;
+  }
+
+  function getFeedbackText(property, comparison, value) {
+    const propertyNames = {
+      'position': 'Posição',
+      'nationality': 'Nacionalidade',
+      'league': 'Liga',
+      'club': 'Clube',
+      'age': 'Idade',
+      'height': 'Altura',
+      'goals': 'Gols'
+    };
+    const propertyName = propertyNames[property] || property;
+    
+    // Handle array properties (nationality)
+    if (property === 'nationality' && typeof comparison === 'object' && comparison.matches !== undefined) {
+      const valueArray = normalizeProperty(value);
+      const parts = [];
+      
+      valueArray.forEach(item => {
+        if (comparison.matches.includes(item)) {
+          parts.push(`<span class="value-match">${item}</span>`);
+        } else {
+          parts.push(`<span class="value-nomatch">${item}</span>`);
+        }
+      });
+      
+      const emoji = comparison.hasMatch ? '✅' : '❌';
+      return emoji + ' ' + propertyName + ': ' + parts.join(', ');
+    }
+    
+    const formattedValue = formatPropertyValue(property, value);
+    
+    if (comparison === 'match') {
+      return '✅ ' + propertyName + ': ' + formattedValue;
+    } else if (comparison === 'higher') {
+      return '🔼 ' + propertyName + ': ' + formattedValue;
+    } else if (comparison === 'lower') {
+      return '🔽 ' + propertyName + ': ' + formattedValue;
+    } else {
+      return '❌ ' + propertyName + ': ' + formattedValue;
+    }
+  }
+
+  function getFeedbackClass(comparison) {
+    // Handle array comparison objects
+    if (typeof comparison === 'object' && comparison.hasMatch !== undefined) {
+      if (comparison.allMatch) {
+        return 'feedback-match';
+      } else if (comparison.hasMatch) {
+        return 'feedback-partial-match'; // New class for partial matches
+      } else {
+        return 'feedback-different';
+      }
+    }
+    
+    if (comparison === 'match') {
+      return 'feedback-match';
+    } else if (comparison === 'higher') {
+      return 'feedback-higher';
+    } else if (comparison === 'lower') {
+      return 'feedback-lower';
+    } else {
+      return 'feedback-different';
+    }
+  }
+
+  function formatPropertyValue(property, value) {
+    if (property === 'height') {
+      return `${value} cm`;
+    } else if (property === 'age') {
+      return `${value} anos`;
+    } else if (property === 'goals') {
+      return `${value} gols`;
+    }
+    return value;
+  }
+
+  function displayGuess(guess, comparisons) {
+    const guessCard = document.createElement('div');
+    guessCard.className = 'guess-card';
+    
+    const isCorrect = guess.name === gameState.secretPlayer.name;
+    const playerNameClass = isCorrect ? 'guess-animal-name correct' : 'guess-animal-name';
+    const emoji = '⚽';
+    
+    // Create the main container
+    const guessLine = document.createElement('div');
+    guessLine.className = 'guess-line';
+    
+    // Player name header
+    const playerHeader = document.createElement('span');
+    playerHeader.className = `guess-animal-header ${playerNameClass}`;
+    playerHeader.innerHTML = `
+      <span class="animal-emoji-inline">${emoji}</span>
+      <span class="animal-name-inline">${guess.name}</span>
+      ${isCorrect ? '<span class="correct-badge">🎉</span>' : '<span class="wrong-badge">😞</span>'}
+    `;
+    guessLine.appendChild(playerHeader);
+    
+    // Add all property feedbacks
+    const properties = [
+      { key: 'position', value: guess.position, comparison: comparisons.position },
+      { key: 'nationality', value: guess.nationality, comparison: comparisons.nationality },
+      { key: 'league', value: guess.league, comparison: comparisons.league },
+      { key: 'club', value: guess.club, comparison: comparisons.club },
+      { key: 'age', value: guess.age, comparison: comparisons.age },
+      { key: 'height', value: guess.height, comparison: comparisons.height },
+      { key: 'goals', value: guess.goals, comparison: comparisons.goals }
+    ];
+    
+    properties.forEach(prop => {
+      const feedbackSpan = document.createElement('span');
+      feedbackSpan.className = `property-feedback ${getFeedbackClass(prop.comparison)}`;
+      feedbackSpan.innerHTML = getFeedbackText(prop.key, prop.comparison, prop.value);
+      guessLine.appendChild(feedbackSpan);
+    });
+    
+    guessCard.appendChild(guessLine);
+    guessesContainer.insertBefore(guessCard, guessesContainer.firstChild);
+  }
+
+  function filterPlayers(query) {
+    if (!query || query.trim() === '') {
+      return [];
+    }
+    const lowerQuery = query.toLowerCase().trim();
+    return PLAYERS.filter(player => 
+      player.name.toLowerCase().startsWith(lowerQuery) &&
+      !gameState.guesses.some(g => g.name === player.name)
+    ).slice(0, 10); // Limit to 10 results
+  }
+
+  function displayAutocomplete(results) {
+    autocompleteDropdown.innerHTML = '';
+    autocompleteState.filteredPlayers = results;
+    autocompleteState.selectedIndex = -1;
+    
+    if (results.length === 0) {
+      autocompleteDropdown.style.display = 'none';
+      autocompleteState.isOpen = false;
+      return;
+    }
+    
+    autocompleteDropdown.style.display = 'block';
+    autocompleteState.isOpen = true;
+    
+    results.forEach((player, index) => {
+      const item = document.createElement('div');
+      item.className = 'autocomplete-item';
+      item.textContent = player.name;
+      item.addEventListener('click', () => {
+        selectPlayer(player.name);
+      });
+      item.addEventListener('mouseenter', () => {
+        autocompleteState.selectedIndex = index;
+        updateAutocompleteSelection();
+      });
+      autocompleteDropdown.appendChild(item);
+    });
+  }
+
+  function updateAutocompleteSelection() {
+    const items = autocompleteDropdown.querySelectorAll('.autocomplete-item');
+    items.forEach((item, index) => {
+      if (index === autocompleteState.selectedIndex) {
+        item.classList.add('selected');
+      } else {
+        item.classList.remove('selected');
+      }
+    });
+  }
+
+  function selectPlayer(playerName) {
+    playerInput.value = playerName;
+    autocompleteDropdown.style.display = 'none';
+    autocompleteState.isOpen = false;
+    playerInput.focus();
+  }
+
+  function submitGuess() {
+    if (gameState.isSolved || gameState.isGameOver) return;
+    
+    const inputValue = playerInput.value.trim();
+    if (!inputValue) return;
+    
+    const guess = PLAYERS.find(p => p.name.toLowerCase() === inputValue.toLowerCase());
+    if (!guess) {
+      alert('Jogador não encontrado. Por favor, selecione das sugestões.');
+      return;
+    }
+    
+    // Check if already guessed
+    if (gameState.guesses.some(g => g.name === guess.name)) {
+      alert('Você já chutou este jogador!');
+      return;
+    }
+    
+    const comparisons = compareProperties(gameState.secretPlayer, guess);
+    gameState.guesses.push(guess);
+    
+    displayGuess(guess, comparisons);
+    updateGameState();
+    
+    // Check if solved
+    if (guess.name === gameState.secretPlayer.name) {
+      endGame(true);
+      return;
+    }
+    
+    // Check if reached max guesses
+    if (gameState.guesses.length >= MAX_GUESSES) {
+      endGame(false);
+      return;
+    }
+    
+    // Track guess
+    if (typeof gtag === 'function') {
+      gtag('event', 'player_guess', {
+        player: guess.name,
+        guess_number: gameState.guesses.length,
+        difficulty: currentDifficulty
+      });
+    }
+    
+    // Reset input
+    playerInput.value = '';
+    autocompleteDropdown.style.display = 'none';
+    autocompleteState.isOpen = false;
+  }
+
+  function getAnswerFeedbackText(property, value) {
+    const propertyNames = {
+      'position': 'Posição',
+      'nationality': 'Nacionalidade',
+      'league': 'Liga',
+      'club': 'Clube',
+      'age': 'Idade',
+      'height': 'Altura',
+      'goals': 'Gols'
+    };
+    const propertyName = propertyNames[property] || property;
+    
+    // Handle array properties
+    if (property === 'nationality' && Array.isArray(value)) {
+      return propertyName + ': ' + value.join(', ');
+    }
+    
+    const formattedValue = formatPropertyValue(property, value);
+    return propertyName + ': ' + formattedValue;
+  }
+
+  function displayAnswer() {
+    // Display the answer with all properties in black (no emojis)
+    const answerCard = document.createElement('div');
+    answerCard.className = 'guess-card answer-reveal';
+    const emoji = '⚽';
+    const secret = gameState.secretPlayer;
+    
+    answerCard.innerHTML = `
+      <div class="guess-line">
+        <span class="guess-animal-header guess-animal-name answer-reveal-header">
+          <span class="animal-emoji-inline">${emoji}</span>
+          <span class="animal-name-inline">${secret.name}</span>
+          <span>😞</span>
+        </span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('position', secret.position)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('nationality', secret.nationality)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('league', secret.league)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('club', secret.club)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('age', secret.age)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('height', secret.height)}</span>
+        <span class="property-feedback answer-reveal-feedback">${getAnswerFeedbackText('goals', secret.goals)}</span>
+      </div>
+    `;
+    guessesContainer.insertBefore(answerCard, guessesContainer.firstChild);
+  }
+
+  function giveUp() {
+    if (gameState.isSolved || gameState.isGameOver) return;
+    
+    gameState.gaveUp = true;
+    endGame(false);
+    displayAnswer();
+    
+    // Track give up
+    if (typeof gtag === 'function') {
+      gtag('event', 'player_gave_up', {
+        guesses: gameState.guesses.length,
+        date: gameState.currentDate,
+        difficulty: currentDifficulty
+      });
+    }
+  }
+
+  function endGame(solved) {
+    gameState.isSolved = solved;
+    gameState.isGameOver = true;
+    
+    if (solved) {
+      const guessText = gameState.guesses.length === 1 ? 'palpite' : 'palpites';
+      gameStatusEl.textContent = `🎉 Resolvido em ${gameState.guesses.length} ${guessText}!`;
+      gameStatusEl.className = 'solved';
+      
+      // Track completion
+      if (typeof gtag === 'function') {
+        gtag('event', 'player_solved', {
+          guesses: gameState.guesses.length,
+          date: gameState.currentDate,
+          difficulty: currentDifficulty
+        });
+      }
+    } else {
+      if (gameState.gaveUp) {
+        const guessText = gameState.guesses.length === 1 ? 'palpite' : 'palpites';
+        gameStatusEl.textContent = `😔 Você desistiu após ${gameState.guesses.length} ${guessText}`;
+      } else {
+        gameStatusEl.textContent = `❌ Fim de Jogo! Você usou todos os ${MAX_GUESSES} palpites.`;
+        // Display answer when losing (not when giving up, as giveUp() already displays it)
+        displayAnswer();
+      }
+      gameStatusEl.className = 'game-over';
+      
+      // Track game over
+      if (typeof gtag === 'function') {
+        gtag('event', 'player_game_over', {
+          guesses: gameState.guesses.length,
+          gave_up: gameState.gaveUp,
+          date: gameState.currentDate,
+          difficulty: currentDifficulty
+        });
+      }
+    }
+    
+    guessSection.style.display = 'none';
+    shareSection.style.display = 'block';
+  }
+
+  function shareResults() {
+    const gameUrl = window.location.origin + window.location.pathname;
+    const difficultyText = {
+      'easy': 'Fácil',
+      'medium': 'Médio',
+      'hard': 'Difícil'
+    }[currentDifficulty] || currentDifficulty;
+    let shareText;
+    
+    if (gameState.isSolved) {
+      const guessText = gameState.guesses.length === 1 ? 'palpite' : 'palpites';
+      const status = `Resolvido em ${gameState.guesses.length} ${guessText}!`;
+      shareText = `🎉 FutQuiz: o quiz diário da bola ⚽\n${status} (${difficultyText})\n\nJogue em: ${gameUrl}`;
+    } else if (gameState.gaveUp) {
+      const guessText = gameState.guesses.length === 1 ? 'palpite' : 'palpites';
+      const status = `Desistiu após ${gameState.guesses.length} ${guessText}`;
+      shareText = `😞 FutQuiz: o quiz diário da bola ⚽\n${status} (${difficultyText})\n\nJogue em: ${gameUrl}`;
+    } else {
+      const status = `Fim de Jogo após ${MAX_GUESSES} palpites`;
+      shareText = `❌ FutQuiz: o quiz diário da bola ⚽\n${status} (${difficultyText})\n\nJogue em: ${gameUrl}`;
+    }
+    
+    // Try to use Web Share API if available
+    if (navigator.share) {
+      navigator.share({
+        title: 'FutQuiz: o quiz diário da bola',
+        text: shareText
+      }).catch(err => {
+        // Fallback to clipboard
+        copyToClipboard(shareText);
+      });
+    } else {
+      // Fallback to clipboard
+      copyToClipboard(shareText);
+    }
+  }
+
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      // Show feedback
+      const originalText = shareResultsBtn.textContent;
+      shareResultsBtn.textContent = 'Copiado!';
+      shareResultsBtn.style.backgroundColor = 'var(--success-color)';
+      setTimeout(() => {
+        shareResultsBtn.textContent = originalText;
+        shareResultsBtn.style.backgroundColor = '';
+      }, 2000);
+    }).catch(err => {
+      // Fallback: create temporary textarea
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        const originalText = shareResultsBtn.textContent;
+        shareResultsBtn.textContent = 'Copiado!';
+        shareResultsBtn.style.backgroundColor = 'var(--success-color)';
+        setTimeout(() => {
+          shareResultsBtn.textContent = originalText;
+          shareResultsBtn.style.backgroundColor = '';
+        }, 2000);
+      } catch (err) {
+        alert('Falha ao copiar. Por favor, copie manualmente:\n\n' + text);
+      }
+      document.body.removeChild(textarea);
+    });
+  }
+
+  function updateGameState() {
+    guessCountEl.textContent = `${gameState.guesses.length}/${MAX_GUESSES}`;
+    
+    // Show remaining guesses warning
+    const remaining = MAX_GUESSES - gameState.guesses.length;
+    if (!gameState.isSolved && !gameState.isGameOver && remaining <= 3 && remaining > 0) {
+      const guessText = remaining === 1 ? 'palpite' : 'palpites';
+      gameStatusEl.textContent = `⚠️ ${remaining} ${guessText} restantes!`;
+      gameStatusEl.className = 'warning';
+    } else if (!gameState.isSolved && !gameState.isGameOver) {
+      gameStatusEl.textContent = '';
+      gameStatusEl.className = '';
+    }
+  }
+
+  function initializeGame() {
+    gameState.currentDate = getDateString();
+    gameState.secretPlayer = getDailyPlayer(currentDifficulty);
+    gameState.guesses = [];
+    gameState.isSolved = false;
+    gameState.isGameOver = false;
+    gameState.gaveUp = false;
+    gameState.difficulty = currentDifficulty;
+    
+    // Clear previous guesses
+    guessesContainer.innerHTML = '';
+    guessCountEl.textContent = `0/${MAX_GUESSES}`;
+    gameStatusEl.textContent = '';
+    gameStatusEl.className = '';
+    guessSection.style.display = 'flex';
+    shareSection.style.display = 'none';
+    gameInfo.style.display = 'block';
+    playerInput.value = '';
+    autocompleteDropdown.style.display = 'none';
+    
+    // Track game start
+    if (typeof gtag === 'function') {
+      gtag('event', 'player_game_started', {
+        date: gameState.currentDate,
+        difficulty: currentDifficulty
+      });
+    }
+  }
+
+  // Difficulty selection handler
+  function handleDifficultySelection(difficulty) {
+    filterByDifficulty(difficulty);
+    initializeGame();
+  }
+
+  // Event Listeners
+  submitBtn.addEventListener('click', submitGuess);
+  giveUpBtn.addEventListener('click', giveUp);
+  shareResultsBtn.addEventListener('click', shareResults);
+  
+  // Difficulty button listeners
+  difficultyButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      handleDifficultySelection(btn.dataset.difficulty);
+    });
+  });
+  
+  playerInput.addEventListener('input', (e) => {
+    const query = e.target.value;
+    const results = filterPlayers(query);
+    displayAutocomplete(results);
+  });
+  
+  playerInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (autocompleteState.isOpen && autocompleteState.selectedIndex >= 0) {
+        const selectedPlayer = autocompleteState.filteredPlayers[autocompleteState.selectedIndex];
+        selectPlayer(selectedPlayer.name);
+        submitGuess();
+      } else {
+        submitGuess();
+      }
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (autocompleteState.isOpen && autocompleteState.filteredPlayers.length > 0) {
+        autocompleteState.selectedIndex = Math.min(
+          autocompleteState.selectedIndex + 1,
+          autocompleteState.filteredPlayers.length - 1
+        );
+        updateAutocompleteSelection();
+      }
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (autocompleteState.isOpen) {
+        autocompleteState.selectedIndex = Math.max(autocompleteState.selectedIndex - 1, -1);
+        updateAutocompleteSelection();
+      }
+    } else if (e.key === 'Escape') {
+      autocompleteDropdown.style.display = 'none';
+      autocompleteState.isOpen = false;
+    }
+  });
+  
+  // Close autocomplete when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!playerInput.contains(e.target) && !autocompleteDropdown.contains(e.target)) {
+      autocompleteDropdown.style.display = 'none';
+      autocompleteState.isOpen = false;
+    }
+  });
+
+  // Load data and initialize
+  loadPlayersData();
+});
+
