@@ -6,26 +6,13 @@ const PLAYERS_DATA = [
     "name": "Lionel Messi",
     "nationality": "Argentina",
     "currentClub": "Inter Miami",
-    "leaguesPlayed": [
-      "La Liga",
-      "Ligue 1",
-      "MLS"
-    ],
+    "leaguesPlayed": ["La Liga", "Ligue 1", "MLS"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1987-06-24",
     "preferredFoot": "Esquerdo",
     "height": 170,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best",
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "La Liga",
-      "Ligue 1"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best", "Chuteira de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Champions League", "La Liga", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -33,28 +20,13 @@ const PLAYERS_DATA = [
     "name": "Cristiano Ronaldo",
     "nationality": "Portugal",
     "currentClub": "Al Nassr",
-    "leaguesPlayed": [
-      "Premier League",
-      "La Liga",
-      "Serie A",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Premier League", "La Liga", "Serie A", "Liga Saudita"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1985-02-05",
     "preferredFoot": "Direito",
     "height": 187,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best",
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "La Liga",
-      "Serie A",
-      "Eurocopa"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best", "Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "Premier League", "La Liga", "Serie A", "Eurocopa"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -62,25 +34,13 @@ const PLAYERS_DATA = [
     "name": "Neymar",
     "nationality": "Brasil",
     "currentClub": "Santos",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga",
-      "Ligue 1",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga", "Ligue 1", "Liga Saudita"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1992-02-05",
     "preferredFoot": "Direito",
     "height": 175,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Ligue 1",
-      "Copa Libertadores"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Ligue 1", "Copa Libertadores"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -88,22 +48,13 @@ const PLAYERS_DATA = [
     "name": "Kylian Mbappé",
     "nationality": "França",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1998-12-20",
     "preferredFoot": "Direito",
     "height": 178,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Ligue 1",
-      "La Liga"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Ligue 1", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -111,22 +62,13 @@ const PLAYERS_DATA = [
     "name": "Erling Haaland",
     "nationality": "Noruega",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2000-07-21",
     "preferredFoot": "Esquerdo",
     "height": 194,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Bundesliga"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "Premier League", "Bundesliga"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -134,23 +76,13 @@ const PLAYERS_DATA = [
     "name": "Robert Lewandowski",
     "nationality": "Polônia",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Bundesliga", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1988-08-21",
     "preferredFoot": "Direito",
     "height": 185,
-    "individualTitles": [
-      "Chuteira de Ouro",
-      "FIFA The Best"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "Bundesliga",
-      "La Liga"
-    ],
+    "individualTitles": ["Chuteira de Ouro", "FIFA The Best"],
+    "teamTitles": ["Champions League", "Bundesliga", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -158,24 +90,13 @@ const PLAYERS_DATA = [
     "name": "Karim Benzema",
     "nationality": "França",
     "currentClub": "Al Ittihad",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "La Liga",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Ligue 1", "La Liga", "Liga Saudita"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1987-12-19",
     "preferredFoot": "Direito",
     "height": 185,
-    "individualTitles": [
-      "Bola de Ouro",
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Ligue 1"
-    ],
+    "individualTitles": ["Bola de Ouro", "Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -183,22 +104,13 @@ const PLAYERS_DATA = [
     "name": "Mohamed Salah",
     "nationality": "Egito",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Premier League",
-      "Serie A",
-      "Liga Suíça"
-    ],
+    "leaguesPlayed": ["Premier League", "Serie A", "Liga Suíça"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1992-06-15",
     "preferredFoot": "Esquerdo",
     "height": 175,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -206,17 +118,12 @@ const PLAYERS_DATA = [
     "name": "Harry Kane",
     "nationality": "Inglaterra",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Premier League",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Premier League", "Bundesliga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1993-07-28",
     "preferredFoot": "Direito",
     "height": 188,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
     "teamTitles": [],
     "playedWorldCup": true,
     "difficulty": "easy"
@@ -225,20 +132,13 @@ const PLAYERS_DATA = [
     "name": "Kevin De Bruyne",
     "nationality": "Bélgica",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Premier League",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Premier League", "Bundesliga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1991-06-28",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -246,21 +146,13 @@ const PLAYERS_DATA = [
     "name": "Luka Modrić",
     "nationality": "Croácia",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Premier League", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1985-09-09",
     "preferredFoot": "Direito",
     "height": 172,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -268,21 +160,13 @@ const PLAYERS_DATA = [
     "name": "Toni Kroos",
     "nationality": "Alemanha",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Bundesliga", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1990-01-04",
     "preferredFoot": "Esquerdo",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Bundesliga",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Bundesliga", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -290,19 +174,13 @@ const PLAYERS_DATA = [
     "name": "Virgil van Dijk",
     "nationality": "Holanda",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Premier League",
-      "Liga Escocesa"
-    ],
+    "leaguesPlayed": ["Premier League", "Liga Escocesa"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1991-07-08",
     "preferredFoot": "Direito",
     "height": 193,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -310,22 +188,13 @@ const PLAYERS_DATA = [
     "name": "Sergio Ramos",
     "nationality": "Espanha",
     "currentClub": "Sevilla",
-    "leaguesPlayed": [
-      "La Liga",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["La Liga", "Ligue 1"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1986-03-30",
     "preferredFoot": "Direito",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -333,19 +202,13 @@ const PLAYERS_DATA = [
     "name": "Manuel Neuer",
     "nationality": "Alemanha",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Bundesliga"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1986-03-27",
     "preferredFoot": "Direito",
     "height": 193,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -353,20 +216,13 @@ const PLAYERS_DATA = [
     "name": "Thibaut Courtois",
     "nationality": "Bélgica",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Premier League", "La Liga"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1992-05-11",
     "preferredFoot": "Esquerdo",
     "height": 199,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "La Liga", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -374,21 +230,13 @@ const PLAYERS_DATA = [
     "name": "Alisson",
     "nationality": "Brasil",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Premier League"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1992-10-02",
     "preferredFoot": "Direito",
     "height": 191,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa América", "Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -396,18 +244,13 @@ const PLAYERS_DATA = [
     "name": "Vinicius Jr",
     "nationality": "Brasil",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2000-07-12",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -415,18 +258,13 @@ const PLAYERS_DATA = [
     "name": "Jude Bellingham",
     "nationality": "Inglaterra",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Bundesliga", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2003-06-29",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -434,18 +272,13 @@ const PLAYERS_DATA = [
     "name": "Phil Foden",
     "nationality": "Inglaterra",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2000-05-28",
     "preferredFoot": "Esquerdo",
     "height": 171,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -453,9 +286,7 @@ const PLAYERS_DATA = [
     "name": "Bukayo Saka",
     "nationality": "Inglaterra",
     "currentClub": "Arsenal",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2001-09-05",
     "preferredFoot": "Esquerdo",
@@ -469,21 +300,13 @@ const PLAYERS_DATA = [
     "name": "Rodri",
     "nationality": "Espanha",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["La Liga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1996-06-22",
     "preferredFoot": "Direito",
     "height": 191,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Premier League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Premier League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -491,20 +314,13 @@ const PLAYERS_DATA = [
     "name": "Antoine Griezmann",
     "nationality": "França",
     "currentClub": "Atlético Madrid",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1991-03-21",
     "preferredFoot": "Esquerdo",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "La Liga",
-      "Europa League"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "La Liga", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -512,20 +328,13 @@ const PLAYERS_DATA = [
     "name": "Lautaro Martínez",
     "nationality": "Argentina",
     "currentClub": "Inter Milan",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-08-22",
     "preferredFoot": "Direito",
     "height": 174,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -533,18 +342,13 @@ const PLAYERS_DATA = [
     "name": "Rafael Leão",
     "nationality": "Portugal",
     "currentClub": "AC Milan",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1999-06-10",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -552,18 +356,13 @@ const PLAYERS_DATA = [
     "name": "Federico Valverde",
     "nationality": "Uruguai",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1998-07-22",
     "preferredFoot": "Direito",
     "height": 182,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -571,26 +370,13 @@ const PLAYERS_DATA = [
     "name": "Ronaldinho",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Ligue 1",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Ligue 1", "La Liga", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1980-03-21",
     "preferredFoot": "Direito",
     "height": 181,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "La Liga"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -598,25 +384,13 @@ const PLAYERS_DATA = [
     "name": "Zinedine Zidane",
     "nationality": "França",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Serie A",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Serie A", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1972-06-23",
     "preferredFoot": "Ambidestro",
     "height": 185,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -624,27 +398,13 @@ const PLAYERS_DATA = [
     "name": "Ronaldo Fenômeno",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Eredivisie",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Eredivisie", "La Liga", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1976-09-18",
     "preferredFoot": "Direito",
     "height": 183,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "La Liga",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "La Liga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -652,20 +412,13 @@ const PLAYERS_DATA = [
     "name": "Pelé",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "NASL"
-    ],
+    "leaguesPlayed": ["Brasileirão", "NASL"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1940-10-23",
     "preferredFoot": "Direito",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa Libertadores", "Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -673,21 +426,13 @@ const PLAYERS_DATA = [
     "name": "Diego Maradona",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1960-10-30",
     "preferredFoot": "Esquerdo",
     "height": 165,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Serie A",
-      "Copa da UEFA"
-    ],
+    "teamTitles": ["Copa do Mundo", "Serie A", "Copa da UEFA"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -695,22 +440,13 @@ const PLAYERS_DATA = [
     "name": "Johan Cruyff",
     "nationality": "Holanda",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Eredivisie", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1947-04-25",
     "preferredFoot": "Direito",
     "height": 178,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Eredivisie"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Eredivisie"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -718,49 +454,27 @@ const PLAYERS_DATA = [
     "name": "Franz Beckenbauer",
     "nationality": "Alemanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "NASL"
-    ],
+    "leaguesPlayed": ["Bundesliga", "NASL"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1945-09-11",
     "preferredFoot": "Direito",
     "height": 181,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Bundesliga"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
   {
     "name": "Alfredo Di Stéfano",
-    "nationality": [
-      "Argentina",
-      "Espanha"
-    ],
+    "nationality": ["Argentina", "Espanha"],
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1926-07-04",
     "preferredFoot": "Direito",
     "height": 178,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Primera División"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Primera División"],
     "playedWorldCup": false,
     "difficulty": "hard"
   },
@@ -768,26 +482,13 @@ const PLAYERS_DATA = [
     "name": "Romário",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Eredivisie",
-      "La Liga",
-      "Liga Mexicana"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Eredivisie", "La Liga", "Liga Mexicana"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1966-01-29",
     "preferredFoot": "Esquerdo",
     "height": 167,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "Eredivisie"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "Eredivisie"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -795,26 +496,13 @@ const PLAYERS_DATA = [
     "name": "Rivaldo",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga",
-      "Serie A",
-      "Liga Grega"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga", "Serie A", "Liga Grega"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1972-04-19",
     "preferredFoot": "Esquerdo",
     "height": 186,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "La Liga"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -822,25 +510,13 @@ const PLAYERS_DATA = [
     "name": "Kaká",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "La Liga",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "La Liga", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1982-04-22",
     "preferredFoot": "Direito",
     "height": 186,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "Serie A",
-      "Copa do Mundo"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Champions League", "Serie A", "Copa do Mundo"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -848,21 +524,13 @@ const PLAYERS_DATA = [
     "name": "Andrés Iniesta",
     "nationality": "Espanha",
     "currentClub": "Vissel Kobe",
-    "leaguesPlayed": [
-      "La Liga",
-      "J-League"
-    ],
+    "leaguesPlayed": ["La Liga", "J-League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1984-05-11",
     "preferredFoot": "Direito",
     "height": 171,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -870,21 +538,13 @@ const PLAYERS_DATA = [
     "name": "Xavi",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "Liga do Catar"
-    ],
+    "leaguesPlayed": ["La Liga", "Liga do Catar"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1980-01-25",
     "preferredFoot": "Direito",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -892,21 +552,13 @@ const PLAYERS_DATA = [
     "name": "Iker Casillas",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "Liga Portuguesa"
-    ],
+    "leaguesPlayed": ["La Liga", "Liga Portuguesa"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1981-05-20",
     "preferredFoot": "Direito",
     "height": 185,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -914,21 +566,13 @@ const PLAYERS_DATA = [
     "name": "Gianluigi Buffon",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "Ligue 1",
-      "Serie B"
-    ],
+    "leaguesPlayed": ["Serie A", "Ligue 1", "Serie B"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1978-01-28",
     "preferredFoot": "Direito",
     "height": 192,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Serie A",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa do Mundo", "Serie A", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -936,18 +580,13 @@ const PLAYERS_DATA = [
     "name": "Paolo Maldini",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1968-06-26",
     "preferredFoot": "Esquerdo",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -955,23 +594,13 @@ const PLAYERS_DATA = [
     "name": "Fabio Cannavaro",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Serie A", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1973-09-13",
     "preferredFoot": "Direito",
     "height": 176,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A",
-      "La Liga"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -979,20 +608,13 @@ const PLAYERS_DATA = [
     "name": "Alessandro Del Piero",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "A-League"
-    ],
+    "leaguesPlayed": ["Serie A", "A-League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1974-11-09",
     "preferredFoot": "Esquerdo",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1000,18 +622,13 @@ const PLAYERS_DATA = [
     "name": "Francesco Totti",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1976-09-27",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1019,24 +636,13 @@ const PLAYERS_DATA = [
     "name": "Thierry Henry",
     "nationality": "França",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League",
-      "La Liga",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League", "La Liga", "MLS"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1977-08-17",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Premier League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Premier League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1044,24 +650,13 @@ const PLAYERS_DATA = [
     "name": "Patrick Vieira",
     "nationality": "França",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League",
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League", "Serie A", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1976-06-23",
     "preferredFoot": "Direito",
     "height": 193,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Premier League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Premier League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1069,20 +664,13 @@ const PLAYERS_DATA = [
     "name": "Zico",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "Liga Japonesa"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Liga Japonesa"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1953-03-03",
     "preferredFoot": "Esquerdo",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -1090,18 +678,13 @@ const PLAYERS_DATA = [
     "name": "Garrincha",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1933-10-28",
     "preferredFoot": "Esquerdo",
     "height": 169,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa do Mundo", "Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -1109,24 +692,13 @@ const PLAYERS_DATA = [
     "name": "Gerd Müller",
     "nationality": "Alemanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "NASL"
-    ],
+    "leaguesPlayed": ["Bundesliga", "NASL"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1945-11-03",
     "preferredFoot": "Direito",
     "height": 176,
-    "individualTitles": [
-      "Bola de Ouro",
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Bundesliga"
-    ],
+    "individualTitles": ["Bola de Ouro", "Chuteira de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -1134,20 +706,13 @@ const PLAYERS_DATA = [
     "name": "Ferenc Puskás",
     "nationality": "Hungria",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Húngara",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Liga Húngara", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1927-04-02",
     "preferredFoot": "Esquerdo",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Liga Húngara"
-    ],
+    "teamTitles": ["Champions League", "La Liga", "Liga Húngara"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -1155,23 +720,13 @@ const PLAYERS_DATA = [
     "name": "Eusébio",
     "nationality": "Portugal",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "NASL",
-      "Liga Mexicana"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "NASL", "Liga Mexicana"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1942-01-25",
     "preferredFoot": "Direito",
     "height": 175,
-    "individualTitles": [
-      "Bola de Ouro",
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "Liga Portuguesa"
-    ],
+    "individualTitles": ["Bola de Ouro", "Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "Liga Portuguesa"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -1179,21 +734,13 @@ const PLAYERS_DATA = [
     "name": "Bobby Charlton",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "First Division"
-    ],
+    "leaguesPlayed": ["First Division"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1937-10-11",
     "preferredFoot": "Direito",
     "height": 173,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "First Division"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Champions League", "First Division"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -1201,22 +748,13 @@ const PLAYERS_DATA = [
     "name": "George Best",
     "nationality": "Irlanda do Norte",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "First Division",
-      "NASL",
-      "Liga Irlandesa"
-    ],
+    "leaguesPlayed": ["First Division", "NASL", "Liga Irlandesa"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1946-05-22",
     "preferredFoot": "Direito",
     "height": 175,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "First Division"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Champions League", "First Division"],
     "playedWorldCup": false,
     "difficulty": "hard"
   },
@@ -1224,20 +762,13 @@ const PLAYERS_DATA = [
     "name": "Lev Yashin",
     "nationality": "Rússia",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Soviética"
-    ],
+    "leaguesPlayed": ["Liga Soviética"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1929-10-22",
     "preferredFoot": "Direito",
     "height": 189,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Eurocopa",
-      "Liga Soviética"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Eurocopa", "Liga Soviética"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -1245,10 +776,7 @@ const PLAYERS_DATA = [
     "name": "Son Heung-min",
     "nationality": "Coreia do Sul",
     "currentClub": "Tottenham",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1992-07-08",
     "preferredFoot": "Direito",
@@ -1262,23 +790,13 @@ const PLAYERS_DATA = [
     "name": "Sadio Mané",
     "nationality": "Senegal",
     "currentClub": "Al Nassr",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League",
-      "Bundesliga",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League", "Bundesliga", "Liga Saudita"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1992-04-10",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Bundesliga",
-      "Copa da África"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Bundesliga", "Copa da África"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1286,22 +804,13 @@ const PLAYERS_DATA = [
     "name": "Bernardo Silva",
     "nationality": "Portugal",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "Ligue 1", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1994-08-10",
     "preferredFoot": "Esquerdo",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Ligue 1",
-      "Liga das Nações"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Ligue 1", "Liga das Nações"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1309,20 +818,13 @@ const PLAYERS_DATA = [
     "name": "Bruno Fernandes",
     "nationality": "Portugal",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "Serie A", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1994-09-08",
     "preferredFoot": "Direito",
     "height": 179,
     "individualTitles": [],
-    "teamTitles": [
-      "Liga das Nações",
-      "Europa League"
-    ],
+    "teamTitles": ["Liga das Nações", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1330,18 +832,13 @@ const PLAYERS_DATA = [
     "name": "Jamal Musiala",
     "nationality": "Alemanha",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Premier League",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Premier League", "Bundesliga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2003-02-26",
     "preferredFoot": "Direito",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Bundesliga"
-    ],
+    "teamTitles": ["Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1349,17 +846,13 @@ const PLAYERS_DATA = [
     "name": "Pedri",
     "nationality": "Espanha",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2002-11-25",
     "preferredFoot": "Direito",
     "height": 174,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1367,17 +860,13 @@ const PLAYERS_DATA = [
     "name": "Gavi",
     "nationality": "Espanha",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2004-08-05",
     "preferredFoot": "Direito",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1385,38 +874,41 @@ const PLAYERS_DATA = [
     "name": "Florian Wirtz",
     "nationality": "Alemanha",
     "currentClub": "Bayer Leverkusen",
-    "leaguesPlayed": [
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Bundesliga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2003-05-03",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Bundesliga"
-    ],
+    "teamTitles": ["Bundesliga"],
     "playedWorldCup": false,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Rafael Leão",
+    "nationality": "Portugal",
+    "currentClub": "AC Milan",
+    "leaguesPlayed": ["Ligue 1", "Serie A"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1999-06-10",
+    "preferredFoot": "Direito",
+    "height": 188,
+    "individualTitles": [],
+    "teamTitles": ["Serie A"],
+    "playedWorldCup": true,
     "difficulty": "easy"
   },
   {
     "name": "Victor Osimhen",
     "nationality": "Nigéria",
     "currentClub": "Napoli",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1998-12-29",
     "preferredFoot": "Direito",
     "height": 186,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -1424,18 +916,13 @@ const PLAYERS_DATA = [
     "name": "Khvicha Kvaratskhelia",
     "nationality": "Geórgia",
     "currentClub": "Napoli",
-    "leaguesPlayed": [
-      "Liga Russa",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Liga Russa", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2001-02-12",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -1443,17 +930,13 @@ const PLAYERS_DATA = [
     "name": "Marcus Rashford",
     "nationality": "Inglaterra",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-10-31",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Europa League"
-    ],
+    "teamTitles": ["Europa League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1461,18 +944,13 @@ const PLAYERS_DATA = [
     "name": "Mason Mount",
     "nationality": "Inglaterra",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1999-01-10",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1480,17 +958,13 @@ const PLAYERS_DATA = [
     "name": "Declan Rice",
     "nationality": "Inglaterra",
     "currentClub": "Arsenal",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1999-01-14",
     "preferredFoot": "Direito",
     "height": 185,
     "individualTitles": [],
-    "teamTitles": [
-      "Europa Conference League"
-    ],
+    "teamTitles": ["Europa Conference League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1498,25 +972,13 @@ const PLAYERS_DATA = [
     "name": "João Cancelo",
     "nationality": "Portugal",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "Serie A",
-      "Premier League",
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "Serie A", "Premier League", "Bundesliga", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1994-05-27",
     "preferredFoot": "Direito",
     "height": 182,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Bundesliga",
-      "La Liga",
-      "Liga das Nações"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Bundesliga", "La Liga", "Liga das Nações"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1524,20 +986,13 @@ const PLAYERS_DATA = [
     "name": "Rúben Dias",
     "nationality": "Portugal",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1997-05-14",
     "preferredFoot": "Direito",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Liga das Nações"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Liga das Nações"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1545,19 +1000,13 @@ const PLAYERS_DATA = [
     "name": "Marquinhos",
     "nationality": "Brasil",
     "currentClub": "Paris Saint-Germain",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Ligue 1"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1994-05-14",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa América", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1565,22 +1014,13 @@ const PLAYERS_DATA = [
     "name": "Achraf Hakimi",
     "nationality": "Marrocos",
     "currentClub": "Paris Saint-Germain",
-    "leaguesPlayed": [
-      "La Liga",
-      "Bundesliga",
-      "Serie A",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["La Liga", "Bundesliga", "Serie A", "Ligue 1"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1998-11-04",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Serie A",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Champions League", "Serie A", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1588,21 +1028,13 @@ const PLAYERS_DATA = [
     "name": "Ederson",
     "nationality": "Brasil",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Primeira Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Primeira Liga", "Premier League"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1993-08-17",
     "preferredFoot": "Esquerdo",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa América", "Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -1610,19 +1042,13 @@ const PLAYERS_DATA = [
     "name": "Marc-André ter Stegen",
     "nationality": "Alemanha",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Bundesliga", "La Liga"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1992-04-30",
     "preferredFoot": "Direito",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -1630,19 +1056,13 @@ const PLAYERS_DATA = [
     "name": "Jan Oblak",
     "nationality": "Eslovênia",
     "currentClub": "Atlético Madrid",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "La Liga"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1993-01-07",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga",
-      "Europa League"
-    ],
+    "teamTitles": ["La Liga", "Europa League"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -1650,19 +1070,13 @@ const PLAYERS_DATA = [
     "name": "Wayne Rooney",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Premier League", "MLS"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1985-10-24",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1670,20 +1084,13 @@ const PLAYERS_DATA = [
     "name": "Frank Lampard",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Premier League", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1978-06-20",
     "preferredFoot": "Direito",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Europa League"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1691,19 +1098,13 @@ const PLAYERS_DATA = [
     "name": "Steven Gerrard",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Premier League", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1980-05-30",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Europa League"
-    ],
+    "teamTitles": ["Champions League", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1711,19 +1112,13 @@ const PLAYERS_DATA = [
     "name": "John Terry",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1980-12-07",
     "preferredFoot": "Direito",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Europa League"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1731,18 +1126,13 @@ const PLAYERS_DATA = [
     "name": "Rio Ferdinand",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1978-11-07",
     "preferredFoot": "Direito",
     "height": 189,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1750,24 +1140,13 @@ const PLAYERS_DATA = [
     "name": "David Beckham",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League",
-      "La Liga",
-      "Serie A",
-      "Ligue 1",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Premier League", "La Liga", "Serie A", "Ligue 1", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1975-05-02",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "La Liga",
-      "MLS"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "La Liga", "MLS"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1775,20 +1154,13 @@ const PLAYERS_DATA = [
     "name": "Michael Owen",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Premier League", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1979-12-14",
     "preferredFoot": "Direito",
     "height": 173,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Premier League"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1796,20 +1168,13 @@ const PLAYERS_DATA = [
     "name": "Raúl",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "Liga Alemã",
-      "Liga do Catar"
-    ],
+    "leaguesPlayed": ["La Liga", "Liga Alemã", "Liga do Catar"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1977-06-27",
     "preferredFoot": "Esquerdo",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1817,19 +1182,13 @@ const PLAYERS_DATA = [
     "name": "Fernando Hierro",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["La Liga", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1968-03-23",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1837,20 +1196,13 @@ const PLAYERS_DATA = [
     "name": "Carles Puyol",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1978-04-13",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1858,22 +1210,13 @@ const PLAYERS_DATA = [
     "name": "David Villa",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "MLS",
-      "J-League"
-    ],
+    "leaguesPlayed": ["La Liga", "MLS", "J-League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1981-12-03",
     "preferredFoot": "Esquerdo",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1881,23 +1224,13 @@ const PLAYERS_DATA = [
     "name": "Fernando Torres",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "Premier League",
-      "Serie A",
-      "J-League"
-    ],
+    "leaguesPlayed": ["La Liga", "Premier League", "Serie A", "J-League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1984-03-20",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1905,20 +1238,13 @@ const PLAYERS_DATA = [
     "name": "Andrea Pirlo",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Serie A", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1979-05-19",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1926,20 +1252,13 @@ const PLAYERS_DATA = [
     "name": "Gennaro Gattuso",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "Liga Suíça"
-    ],
+    "leaguesPlayed": ["Serie A", "Liga Suíça"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1978-01-09",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1947,21 +1266,13 @@ const PLAYERS_DATA = [
     "name": "Clarence Seedorf",
     "nationality": "Holanda",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Eredivisie", "La Liga", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1976-04-01",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "La Liga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1969,21 +1280,13 @@ const PLAYERS_DATA = [
     "name": "Edgar Davids",
     "nationality": "Holanda",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Serie A",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Serie A", "Premier League", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1973-03-13",
     "preferredFoot": "Esquerdo",
     "height": 169,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -1991,22 +1294,13 @@ const PLAYERS_DATA = [
     "name": "Ruud van Nistelrooy",
     "nationality": "Holanda",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Premier League", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1976-07-01",
     "preferredFoot": "Direito",
     "height": 188,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Premier League",
-      "La Liga"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Premier League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2014,19 +1308,13 @@ const PLAYERS_DATA = [
     "name": "Dennis Bergkamp",
     "nationality": "Holanda",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1969-05-10",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League"
-    ],
+    "teamTitles": ["Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2034,19 +1322,13 @@ const PLAYERS_DATA = [
     "name": "Marcelo",
     "nationality": "Brasil",
     "currentClub": "Fluminense",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1988-05-12",
     "preferredFoot": "Esquerdo",
     "height": 174,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": false,
     "difficulty": "medium"
   },
@@ -2054,21 +1336,13 @@ const PLAYERS_DATA = [
     "name": "Casemiro",
     "nationality": "Brasil",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1992-02-23",
     "preferredFoot": "Direito",
     "height": 185,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Copa América"
-    ],
+    "teamTitles": ["Champions League", "La Liga", "Copa América"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2076,23 +1350,13 @@ const PLAYERS_DATA = [
     "name": "Roberto Carlos",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "La Liga",
-      "Liga Turca"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "La Liga", "Liga Turca"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1973-04-10",
     "preferredFoot": "Esquerdo",
     "height": 168,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2100,21 +1364,13 @@ const PLAYERS_DATA = [
     "name": "Cafu",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1970-06-07",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2122,21 +1378,13 @@ const PLAYERS_DATA = [
     "name": "Dida",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1973-10-07",
     "preferredFoot": "Direito",
     "height": 195,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2144,23 +1392,13 @@ const PLAYERS_DATA = [
     "name": "Luís Figo",
     "nationality": "Portugal",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "La Liga", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1972-11-04",
     "preferredFoot": "Direito",
     "height": 180,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2168,23 +1406,13 @@ const PLAYERS_DATA = [
     "name": "Ricardo Carvalho",
     "nationality": "Portugal",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "Premier League",
-      "La Liga",
-      "Liga Chinesa"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "Premier League", "La Liga", "Liga Chinesa"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1978-05-18",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "La Liga",
-      "Eurocopa"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "La Liga", "Eurocopa"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2192,18 +1420,13 @@ const PLAYERS_DATA = [
     "name": "Paulo Maldini",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1968-06-26",
     "preferredFoot": "Esquerdo",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2211,20 +1434,13 @@ const PLAYERS_DATA = [
     "name": "Alessandro Nesta",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Serie A", "MLS"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1976-03-19",
     "preferredFoot": "Direito",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2232,19 +1448,13 @@ const PLAYERS_DATA = [
     "name": "Gianfranco Zola",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1966-07-05",
     "preferredFoot": "Esquerdo",
     "height": 168,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League",
-      "Europa League"
-    ],
+    "teamTitles": ["Premier League", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -2252,20 +1462,13 @@ const PLAYERS_DATA = [
     "name": "Roberto Baggio",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1967-02-18",
     "preferredFoot": "Direito",
     "height": 174,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best"
-    ],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2273,23 +1476,13 @@ const PLAYERS_DATA = [
     "name": "Marco van Basten",
     "nationality": "Holanda",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1964-10-31",
     "preferredFoot": "Direito",
     "height": 188,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Eurocopa",
-      "Champions League",
-      "Serie A",
-      "Eredivisie"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Eurocopa", "Champions League", "Serie A", "Eredivisie"],
     "playedWorldCup": false,
     "difficulty": "hard"
   },
@@ -2297,23 +1490,13 @@ const PLAYERS_DATA = [
     "name": "Ruud Gullit",
     "nationality": "Holanda",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Serie A", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1962-09-01",
     "preferredFoot": "Direito",
     "height": 191,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Eurocopa",
-      "Champions League",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Eurocopa", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2321,22 +1504,13 @@ const PLAYERS_DATA = [
     "name": "Frank Rijkaard",
     "nationality": "Holanda",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Serie A",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Serie A", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1962-09-30",
     "preferredFoot": "Direito",
     "height": 190,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Champions League",
-      "Serie A",
-      "La Liga"
-    ],
+    "teamTitles": ["Eurocopa", "Champions League", "Serie A", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2344,22 +1518,13 @@ const PLAYERS_DATA = [
     "name": "Michel Platini",
     "nationality": "França",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1955-06-21",
     "preferredFoot": "Direito",
     "height": 178,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Eurocopa",
-      "Champions League",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Eurocopa", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2367,21 +1532,13 @@ const PLAYERS_DATA = [
     "name": "Raymond Kopa",
     "nationality": "França",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1931-10-13",
     "preferredFoot": "Direito",
     "height": 169,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2389,16 +1546,12 @@ const PLAYERS_DATA = [
     "name": "Just Fontaine",
     "nationality": "França",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Ligue 1"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1933-08-18",
     "preferredFoot": "Direito",
     "height": 174,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
     "teamTitles": [],
     "playedWorldCup": true,
     "difficulty": "hard"
@@ -2407,18 +1560,13 @@ const PLAYERS_DATA = [
     "name": "Bobby Moore",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "First Division"
-    ],
+    "leaguesPlayed": ["First Division"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1941-04-12",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "First Division"
-    ],
+    "teamTitles": ["Copa do Mundo", "First Division"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2426,19 +1574,13 @@ const PLAYERS_DATA = [
     "name": "Gordon Banks",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "First Division",
-      "NASL"
-    ],
+    "leaguesPlayed": ["First Division", "NASL"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1937-12-30",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "First Division"
-    ],
+    "teamTitles": ["Copa do Mundo", "First Division"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2446,41 +1588,41 @@ const PLAYERS_DATA = [
     "name": "Stanley Matthews",
     "nationality": "Inglaterra",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "First Division"
-    ],
+    "leaguesPlayed": ["First Division"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1915-02-01",
     "preferredFoot": "Direito",
     "height": 170,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "First Division"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["First Division"],
+    "playedWorldCup": false,
+    "difficulty": "hard"
+  },
+  {
+    "name": "Alfredo Di Stéfano",
+    "nationality": ["Argentina", "Espanha"],
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["Primera División", "La Liga"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1926-07-04",
+    "preferredFoot": "Direito",
+    "height": 178,
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Primera División"],
     "playedWorldCup": false,
     "difficulty": "hard"
   },
   {
     "name": "Ladislao Kubala",
-    "nationality": [
-      "Hungria",
-      "Espanha"
-    ],
+    "nationality": ["Hungria", "Espanha"],
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Húngara",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Liga Húngara", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1927-06-10",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
     "playedWorldCup": false,
     "difficulty": "hard"
   },
@@ -2488,18 +1630,13 @@ const PLAYERS_DATA = [
     "name": "Sándor Kocsis",
     "nationality": "Hungria",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Húngara",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Liga Húngara", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1929-09-21",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2507,9 +1644,7 @@ const PLAYERS_DATA = [
     "name": "József Bozsik",
     "nationality": "Hungria",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Húngara"
-    ],
+    "leaguesPlayed": ["Liga Húngara"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1925-11-28",
     "preferredFoot": "Direito",
@@ -2523,20 +1658,13 @@ const PLAYERS_DATA = [
     "name": "Giacinto Facchetti",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1942-07-18",
     "preferredFoot": "Esquerdo",
     "height": 191,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2544,22 +1672,13 @@ const PLAYERS_DATA = [
     "name": "Gianni Rivera",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1943-08-18",
     "preferredFoot": "Direito",
     "height": 175,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2567,19 +1686,13 @@ const PLAYERS_DATA = [
     "name": "Dino Zoff",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1942-02-28",
     "preferredFoot": "Direito",
     "height": 182,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2587,19 +1700,13 @@ const PLAYERS_DATA = [
     "name": "Gaetano Scirea",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1953-05-25",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2607,22 +1714,13 @@ const PLAYERS_DATA = [
     "name": "Karl-Heinz Rummenigge",
     "nationality": "Alemanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1955-09-25",
     "preferredFoot": "Direito",
     "height": 182,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Eurocopa",
-      "Champions League",
-      "Bundesliga"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Eurocopa", "Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2630,26 +1728,13 @@ const PLAYERS_DATA = [
     "name": "Lothar Matthäus",
     "nationality": "Alemanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Serie A", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1961-03-21",
     "preferredFoot": "Direito",
     "height": 174,
-    "individualTitles": [
-      "Bola de Ouro",
-      "FIFA The Best"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Bundesliga",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Bundesliga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2657,22 +1742,13 @@ const PLAYERS_DATA = [
     "name": "Jürgen Klinsmann",
     "nationality": "Alemanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1964-07-30",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2680,22 +1756,13 @@ const PLAYERS_DATA = [
     "name": "Matthias Sammer",
     "nationality": "Alemanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1967-09-05",
     "preferredFoot": "Direito",
     "height": 180,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Eurocopa",
-      "Champions League",
-      "Bundesliga"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Eurocopa", "Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2703,18 +1770,13 @@ const PLAYERS_DATA = [
     "name": "Oliver Kahn",
     "nationality": "Alemanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Bundesliga"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1969-06-15",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -2722,19 +1784,13 @@ const PLAYERS_DATA = [
     "name": "Gabriel Jesus",
     "nationality": "Brasil",
     "currentClub": "Arsenal",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-04-03",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa América", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -2742,10 +1798,7 @@ const PLAYERS_DATA = [
     "name": "Gabriel Martinelli",
     "nationality": "Brasil",
     "currentClub": "Arsenal",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2001-06-18",
     "preferredFoot": "Direito",
@@ -2759,11 +1812,7 @@ const PLAYERS_DATA = [
     "name": "Martin Ødegaard",
     "nationality": "Noruega",
     "currentClub": "Arsenal",
-    "leaguesPlayed": [
-      "La Liga",
-      "Eredivisie",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["La Liga", "Eredivisie", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1998-12-17",
     "preferredFoot": "Esquerdo",
@@ -2777,10 +1826,7 @@ const PLAYERS_DATA = [
     "name": "William Saliba",
     "nationality": "França",
     "currentClub": "Arsenal",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "2001-03-24",
     "preferredFoot": "Direito",
@@ -2794,9 +1840,7 @@ const PLAYERS_DATA = [
     "name": "Ollie Watkins",
     "nationality": "Inglaterra",
     "currentClub": "Aston Villa",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1995-12-30",
     "preferredFoot": "Direito",
@@ -2810,19 +1854,13 @@ const PLAYERS_DATA = [
     "name": "Douglas Luiz",
     "nationality": "Brasil",
     "currentClub": "Aston Villa",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1998-05-09",
     "preferredFoot": "Esquerdo",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América"
-    ],
+    "teamTitles": ["Copa América"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -2830,17 +1868,13 @@ const PLAYERS_DATA = [
     "name": "Yamal",
     "nationality": "Espanha",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2007-07-13",
     "preferredFoot": "Esquerdo",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -2848,18 +1882,13 @@ const PLAYERS_DATA = [
     "name": "Frenkie de Jong",
     "nationality": "Holanda",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Eredivisie", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1997-05-12",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -2867,17 +1896,13 @@ const PLAYERS_DATA = [
     "name": "Ronald Araújo",
     "nationality": "Uruguai",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1999-03-07",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -2885,19 +1910,13 @@ const PLAYERS_DATA = [
     "name": "Jules Koundé",
     "nationality": "França",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1998-11-12",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga",
-      "Liga das Nações"
-    ],
+    "teamTitles": ["La Liga", "Liga das Nações"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -2905,18 +1924,13 @@ const PLAYERS_DATA = [
     "name": "Federico Chiesa",
     "nationality": "Itália",
     "currentClub": "Juventus",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-10-25",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -2924,9 +1938,7 @@ const PLAYERS_DATA = [
     "name": "Dusan Vlahovic",
     "nationality": "Sérvia",
     "currentClub": "Juventus",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2000-01-28",
     "preferredFoot": "Esquerdo",
@@ -2940,18 +1952,13 @@ const PLAYERS_DATA = [
     "name": "Wojciech Szczęsny",
     "nationality": "Polônia",
     "currentClub": "Juventus",
-    "leaguesPlayed": [
-      "Premier League",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Premier League", "Serie A"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1990-04-18",
     "preferredFoot": "Direito",
     "height": 196,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -2959,18 +1966,13 @@ const PLAYERS_DATA = [
     "name": "Nicolò Barella",
     "nationality": "Itália",
     "currentClub": "Inter Milan",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1997-02-07",
     "preferredFoot": "Direito",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -2978,18 +1980,13 @@ const PLAYERS_DATA = [
     "name": "Alessandro Bastoni",
     "nationality": "Itália",
     "currentClub": "Inter Milan",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1999-04-13",
     "preferredFoot": "Esquerdo",
     "height": 190,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -2997,19 +1994,13 @@ const PLAYERS_DATA = [
     "name": "Mike Maignan",
     "nationality": "França",
     "currentClub": "AC Milan",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Serie A"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1995-07-03",
     "preferredFoot": "Direito",
     "height": 191,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Serie A", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3017,19 +2008,13 @@ const PLAYERS_DATA = [
     "name": "Theo Hernández",
     "nationality": "França",
     "currentClub": "AC Milan",
-    "leaguesPlayed": [
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["La Liga", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1997-10-06",
     "preferredFoot": "Esquerdo",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Liga das Nações",
-      "Serie A"
-    ],
+    "teamTitles": ["Liga das Nações", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3037,18 +2022,13 @@ const PLAYERS_DATA = [
     "name": "Sandro Tonali",
     "nationality": "Itália",
     "currentClub": "Newcastle",
-    "leaguesPlayed": [
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Serie A", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2000-05-08",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -3056,11 +2036,7 @@ const PLAYERS_DATA = [
     "name": "Alexander Isak",
     "nationality": "Suécia",
     "currentClub": "Newcastle",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Eredivisie", "La Liga", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1999-09-21",
     "preferredFoot": "Direito",
@@ -3074,19 +2050,13 @@ const PLAYERS_DATA = [
     "name": "Bruno Guimarães",
     "nationality": "Brasil",
     "currentClub": "Newcastle",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Ligue 1", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1997-11-16",
     "preferredFoot": "Direito",
     "height": 182,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América"
-    ],
+    "teamTitles": ["Copa América"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -3094,11 +2064,7 @@ const PLAYERS_DATA = [
     "name": "Dominik Szoboszlai",
     "nationality": "Hungria",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Liga Austríaca",
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Austríaca", "Bundesliga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2000-10-25",
     "preferredFoot": "Esquerdo",
@@ -3112,10 +2078,7 @@ const PLAYERS_DATA = [
     "name": "Darwin Núñez",
     "nationality": "Uruguai",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Liga Espanhola",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Espanhola", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1999-06-24",
     "preferredFoot": "Direito",
@@ -3129,11 +2092,7 @@ const PLAYERS_DATA = [
     "name": "Luis Díaz",
     "nationality": "Colômbia",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Liga Colombiana",
-      "Primeira Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Colombiana", "Primeira Liga", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-01-13",
     "preferredFoot": "Direito",
@@ -3147,18 +2106,13 @@ const PLAYERS_DATA = [
     "name": "Ibrahima Konaté",
     "nationality": "França",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1999-05-25",
     "preferredFoot": "Direito",
     "height": 194,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League"
-    ],
+    "teamTitles": ["Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3166,11 +2120,7 @@ const PLAYERS_DATA = [
     "name": "Christopher Nkunku",
     "nationality": "França",
     "currentClub": "Chelsea",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Bundesliga", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-11-14",
     "preferredFoot": "Direito",
@@ -3184,19 +2134,13 @@ const PLAYERS_DATA = [
     "name": "Enzo Fernández",
     "nationality": "Argentina",
     "currentClub": "Chelsea",
-    "leaguesPlayed": [
-      "Primera División",
-      "Primeira Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Primera División", "Primeira Liga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2001-01-17",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo"
-    ],
+    "teamTitles": ["Copa do Mundo"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3204,18 +2148,13 @@ const PLAYERS_DATA = [
     "name": "Cole Palmer",
     "nationality": "Inglaterra",
     "currentClub": "Chelsea",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2002-05-06",
     "preferredFoot": "Esquerdo",
     "height": 189,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -3223,10 +2162,7 @@ const PLAYERS_DATA = [
     "name": "Moises Caicedo",
     "nationality": "Equador",
     "currentClub": "Chelsea",
-    "leaguesPlayed": [
-      "Liga Equatoriana",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Equatoriana", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2001-11-02",
     "preferredFoot": "Direito",
@@ -3240,11 +2176,7 @@ const PLAYERS_DATA = [
     "name": "Rasmus Højlund",
     "nationality": "Dinamarca",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Liga Austríaca",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Austríaca", "Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2003-02-04",
     "preferredFoot": "Direito",
@@ -3258,19 +2190,13 @@ const PLAYERS_DATA = [
     "name": "André Onana",
     "nationality": "Camarões",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Serie A", "Premier League"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1996-04-02",
     "preferredFoot": "Direito",
     "height": 190,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3278,20 +2204,13 @@ const PLAYERS_DATA = [
     "name": "Lisandro Martínez",
     "nationality": "Argentina",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Primera División",
-      "Eredivisie",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Primera División", "Eredivisie", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1998-01-18",
     "preferredFoot": "Esquerdo",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3299,20 +2218,13 @@ const PLAYERS_DATA = [
     "name": "Rafael Varane",
     "nationality": "França",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["La Liga", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1993-04-25",
     "preferredFoot": "Direito",
     "height": 191,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3320,18 +2232,13 @@ const PLAYERS_DATA = [
     "name": "Jack Grealish",
     "nationality": "Inglaterra",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1995-09-10",
     "preferredFoot": "Esquerdo",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3339,18 +2246,13 @@ const PLAYERS_DATA = [
     "name": "John Stones",
     "nationality": "Inglaterra",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1994-05-28",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3358,18 +2260,13 @@ const PLAYERS_DATA = [
     "name": "Kyle Walker",
     "nationality": "Inglaterra",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1990-05-28",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3377,21 +2274,13 @@ const PLAYERS_DATA = [
     "name": "İlkay Gündoğan",
     "nationality": "Alemanha",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Premier League", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1990-10-24",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3399,20 +2288,13 @@ const PLAYERS_DATA = [
     "name": "Aurélien Tchouaméni",
     "nationality": "França",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2000-01-27",
     "preferredFoot": "Direito",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Liga das Nações",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Liga das Nações", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3420,20 +2302,13 @@ const PLAYERS_DATA = [
     "name": "Eduardo Camavinga",
     "nationality": "França",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2002-11-10",
     "preferredFoot": "Esquerdo",
     "height": 182,
     "individualTitles": [],
-    "teamTitles": [
-      "Liga das Nações",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Liga das Nações", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3441,20 +2316,13 @@ const PLAYERS_DATA = [
     "name": "David Alaba",
     "nationality": "Áustria",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Bundesliga", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1992-06-24",
     "preferredFoot": "Esquerdo",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Bundesliga",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "Bundesliga", "La Liga"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -3462,20 +2330,13 @@ const PLAYERS_DATA = [
     "name": "Antonio Rüdiger",
     "nationality": "Alemanha",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Premier League", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1993-03-03",
     "preferredFoot": "Direito",
     "height": 190,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3483,22 +2344,13 @@ const PLAYERS_DATA = [
     "name": "Kingsley Coman",
     "nationality": "França",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Serie A",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Serie A", "Bundesliga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1996-06-13",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Bundesliga",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Bundesliga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3506,19 +2358,13 @@ const PLAYERS_DATA = [
     "name": "Leroy Sané",
     "nationality": "Alemanha",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1996-01-11",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Bundesliga",
-      "Premier League"
-    ],
+    "teamTitles": ["Bundesliga", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3526,18 +2372,13 @@ const PLAYERS_DATA = [
     "name": "Joshua Kimmich",
     "nationality": "Alemanha",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Bundesliga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1995-02-08",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3545,18 +2386,13 @@ const PLAYERS_DATA = [
     "name": "Leon Goretzka",
     "nationality": "Alemanha",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Bundesliga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1995-02-06",
     "preferredFoot": "Direito",
     "height": 189,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3564,19 +2400,13 @@ const PLAYERS_DATA = [
     "name": "Dayot Upamecano",
     "nationality": "França",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Bundesliga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1998-10-27",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Liga das Nações",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Liga das Nações", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3584,11 +2414,7 @@ const PLAYERS_DATA = [
     "name": "Moussa Diaby",
     "nationality": "França",
     "currentClub": "Aston Villa",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Bundesliga", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1999-07-07",
     "preferredFoot": "Direito",
@@ -3602,17 +2428,13 @@ const PLAYERS_DATA = [
     "name": "Mikel Oyarzabal",
     "nationality": "Espanha",
     "currentClub": "Real Sociedad",
-    "leaguesPlayed": [
-      "La Liga"
-    ],
+    "leaguesPlayed": ["La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-04-21",
     "preferredFoot": "Esquerdo",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Liga das Nações"
-    ],
+    "teamTitles": ["Liga das Nações"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3620,10 +2442,7 @@ const PLAYERS_DATA = [
     "name": "Takefusa Kubo",
     "nationality": "Japão",
     "currentClub": "Real Sociedad",
-    "leaguesPlayed": [
-      "J-League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["J-League", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2001-06-04",
     "preferredFoot": "Esquerdo",
@@ -3637,19 +2456,13 @@ const PLAYERS_DATA = [
     "name": "Alexis Mac Allister",
     "nationality": "Argentina",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1998-12-24",
     "preferredFoot": "Esquerdo",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3657,11 +2470,7 @@ const PLAYERS_DATA = [
     "name": "Wataru Endo",
     "nationality": "Japão",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "J-League",
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["J-League", "Bundesliga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1993-02-09",
     "preferredFoot": "Direito",
@@ -3675,10 +2484,7 @@ const PLAYERS_DATA = [
     "name": "Cody Gakpo",
     "nationality": "Holanda",
     "currentClub": "Liverpool",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1999-05-07",
     "preferredFoot": "Direito",
@@ -3692,20 +2498,27 @@ const PLAYERS_DATA = [
     "name": "João Félix",
     "nationality": "Portugal",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "Primeira Liga",
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Primeira Liga", "La Liga", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1999-11-10",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga",
-      "Liga das Nações"
-    ],
+    "teamTitles": ["La Liga", "Liga das Nações"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Rafael Leão",
+    "nationality": "Portugal",
+    "currentClub": "AC Milan",
+    "leaguesPlayed": ["Ligue 1", "Serie A"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1999-06-10",
+    "preferredFoot": "Direito",
+    "height": 188,
+    "individualTitles": [],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3713,19 +2526,13 @@ const PLAYERS_DATA = [
     "name": "Randal Kolo Muani",
     "nationality": "França",
     "currentClub": "Paris Saint-Germain",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Bundesliga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1998-12-05",
     "preferredFoot": "Direito",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Liga das Nações",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Liga das Nações", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3733,21 +2540,13 @@ const PLAYERS_DATA = [
     "name": "Ousmane Dembélé",
     "nationality": "França",
     "currentClub": "Paris Saint-Germain",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "La Liga",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Bundesliga", "La Liga", "Ligue 1"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-05-15",
     "preferredFoot": "Esquerdo",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "La Liga",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa do Mundo", "La Liga", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3755,37 +2554,41 @@ const PLAYERS_DATA = [
     "name": "Warren Zaïre-Emery",
     "nationality": "França",
     "currentClub": "Paris Saint-Germain",
-    "leaguesPlayed": [
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Ligue 1"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2006-03-08",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Ligue 1"
-    ],
+    "teamTitles": ["Ligue 1"],
     "playedWorldCup": false,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Achraf Hakimi",
+    "nationality": "Marrocos",
+    "currentClub": "Paris Saint-Germain",
+    "leaguesPlayed": ["La Liga", "Bundesliga", "Serie A", "Ligue 1"],
+    "primaryPosition": "Defensor",
+    "dateOfBirth": "1998-11-04",
+    "preferredFoot": "Direito",
+    "height": 181,
+    "individualTitles": [],
+    "teamTitles": ["Champions League", "Serie A", "Ligue 1"],
+    "playedWorldCup": true,
     "difficulty": "easy"
   },
   {
     "name": "Gianluigi Donnarumma",
     "nationality": "Itália",
     "currentClub": "Paris Saint-Germain",
-    "leaguesPlayed": [
-      "Serie A",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Serie A", "Ligue 1"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1999-02-25",
     "preferredFoot": "Direito",
     "height": 196,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Eurocopa", "Ligue 1"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -3793,19 +2596,13 @@ const PLAYERS_DATA = [
     "name": "Serge Gnabry",
     "nationality": "Alemanha",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Premier League",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Premier League", "Bundesliga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1995-07-14",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3813,19 +2610,13 @@ const PLAYERS_DATA = [
     "name": "Thomas Müller",
     "nationality": "Alemanha",
     "currentClub": "Bayern Munich",
-    "leaguesPlayed": [
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Bundesliga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1989-09-13",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3833,21 +2624,13 @@ const PLAYERS_DATA = [
     "name": "Benjamin Pavard",
     "nationality": "França",
     "currentClub": "Inter Milan",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Bundesliga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Bundesliga", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1996-03-28",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Bundesliga",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Bundesliga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3855,22 +2638,13 @@ const PLAYERS_DATA = [
     "name": "Nicolás Otamendi",
     "nationality": "Argentina",
     "currentClub": "Benfica",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League",
-      "Liga Portuguesa"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League", "Liga Portuguesa"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1988-02-12",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Premier League",
-      "Liga Portuguesa"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Premier League", "Liga Portuguesa"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -3878,25 +2652,13 @@ const PLAYERS_DATA = [
     "name": "Ángel Di María",
     "nationality": "Argentina",
     "currentClub": "Benfica",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Premier League",
-      "Ligue 1",
-      "Liga Portuguesa"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Premier League", "Ligue 1", "Liga Portuguesa"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1988-02-14",
     "preferredFoot": "Esquerdo",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "La Liga",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "La Liga", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -3904,21 +2666,13 @@ const PLAYERS_DATA = [
     "name": "Sergio Agüero",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1988-06-02",
     "preferredFoot": "Direito",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Premier League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa América", "Premier League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -3926,22 +2680,13 @@ const PLAYERS_DATA = [
     "name": "Carlos Tevez",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League",
-      "Serie A",
-      "Liga Chinesa"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League", "Serie A", "Liga Chinesa"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1984-02-05",
     "preferredFoot": "Direito",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -3949,22 +2694,13 @@ const PLAYERS_DATA = [
     "name": "Javier Mascherano",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1984-06-08",
     "preferredFoot": "Direito",
     "height": 174,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -3972,18 +2708,27 @@ const PLAYERS_DATA = [
     "name": "Pablo Zabaleta",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1985-01-16",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League"
-    ],
+    "teamTitles": ["Premier League"],
+    "playedWorldCup": true,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Fernando Torres",
+    "nationality": "Espanha",
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["La Liga", "Premier League", "Serie A", "J-League"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1984-03-20",
+    "preferredFoot": "Direito",
+    "height": 186,
+    "individualTitles": [],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -3991,22 +2736,13 @@ const PLAYERS_DATA = [
     "name": "David Silva",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["La Liga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1986-01-08",
     "preferredFoot": "Esquerdo",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Premier League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Premier League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4014,22 +2750,13 @@ const PLAYERS_DATA = [
     "name": "Juan Mata",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["La Liga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1988-04-28",
     "preferredFoot": "Esquerdo",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Premier League",
-      "Europa League"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Premier League", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4037,23 +2764,13 @@ const PLAYERS_DATA = [
     "name": "Cesc Fàbregas",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League",
-      "La Liga",
-      "Serie A",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Premier League", "La Liga", "Serie A", "Ligue 1"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1987-05-04",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Premier League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Premier League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4061,21 +2778,13 @@ const PLAYERS_DATA = [
     "name": "Sergio Busquets",
     "nationality": "Espanha",
     "currentClub": "Inter Miami",
-    "leaguesPlayed": [
-      "La Liga",
-      "MLS"
-    ],
+    "leaguesPlayed": ["La Liga", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1988-07-16",
     "preferredFoot": "Direito",
     "height": 189,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4083,21 +2792,13 @@ const PLAYERS_DATA = [
     "name": "Jordi Alba",
     "nationality": "Espanha",
     "currentClub": "Inter Miami",
-    "leaguesPlayed": [
-      "La Liga",
-      "MLS"
-    ],
+    "leaguesPlayed": ["La Liga", "MLS"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1989-03-21",
     "preferredFoot": "Esquerdo",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4105,21 +2806,13 @@ const PLAYERS_DATA = [
     "name": "Gerard Piqué",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Premier League", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1987-02-02",
     "preferredFoot": "Direito",
     "height": 194,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4127,20 +2820,13 @@ const PLAYERS_DATA = [
     "name": "Fernando Morientes",
     "nationality": "Espanha",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "La Liga",
-      "Premier League",
-      "Liga Francesa"
-    ],
+    "leaguesPlayed": ["La Liga", "Premier League", "Liga Francesa"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1976-04-05",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4148,21 +2834,13 @@ const PLAYERS_DATA = [
     "name": "Fernando Redondo",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1969-06-27",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "La Liga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4170,22 +2848,13 @@ const PLAYERS_DATA = [
     "name": "Claudio Caniggia",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Liga Escocesa",
-      "Liga Árabe"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Liga Escocesa", "Liga Árabe"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1967-01-09",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4193,20 +2862,13 @@ const PLAYERS_DATA = [
     "name": "Gabriel Batistuta",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Liga Árabe"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Liga Árabe"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1969-02-01",
     "preferredFoot": "Direito",
     "height": 185,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4214,23 +2876,13 @@ const PLAYERS_DATA = [
     "name": "Hernán Crespo",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Premier League",
-      "Liga Árabe"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Premier League", "Liga Árabe"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1975-07-05",
     "preferredFoot": "Direito",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "Serie A",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa América", "Champions League", "Serie A", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4238,21 +2890,13 @@ const PLAYERS_DATA = [
     "name": "Esteban Cambiasso",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Serie A", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1980-08-18",
     "preferredFoot": "Esquerdo",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4260,22 +2904,13 @@ const PLAYERS_DATA = [
     "name": "Walter Samuel",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1978-03-23",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "Serie A",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa América", "Champions League", "Serie A", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4283,20 +2918,13 @@ const PLAYERS_DATA = [
     "name": "Javier Zanetti",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1973-08-10",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4304,21 +2932,13 @@ const PLAYERS_DATA = [
     "name": "Juan Sebastián Verón",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1975-03-09",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4326,20 +2946,13 @@ const PLAYERS_DATA = [
     "name": "Ariel Ortega",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Liga Turca"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Liga Turca"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1974-03-04",
     "preferredFoot": "Esquerdo",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4347,21 +2960,13 @@ const PLAYERS_DATA = [
     "name": "Pablo Aimar",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Liga Portuguesa"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Liga Portuguesa"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1979-11-03",
     "preferredFoot": "Esquerdo",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "La Liga",
-      "Liga Portuguesa"
-    ],
+    "teamTitles": ["Copa América", "La Liga", "Liga Portuguesa"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4369,21 +2974,13 @@ const PLAYERS_DATA = [
     "name": "Claudio López",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Serie A",
-      "Liga Mexicana"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Serie A", "Liga Mexicana"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1974-07-17",
     "preferredFoot": "Esquerdo",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa América", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4391,23 +2988,13 @@ const PLAYERS_DATA = [
     "name": "Mario Kempes",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Liga Austríaca"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Liga Austríaca"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1954-07-15",
     "preferredFoot": "Direito",
     "height": 184,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "La Liga"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Copa América", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4415,20 +3002,13 @@ const PLAYERS_DATA = [
     "name": "Daniel Passarella",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1953-05-25",
     "preferredFoot": "Direito",
     "height": 174,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4436,20 +3016,13 @@ const PLAYERS_DATA = [
     "name": "Oswaldo Ardiles",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League",
-      "Liga Japonesa"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League", "Liga Japonesa"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1952-08-03",
     "preferredFoot": "Direito",
     "height": 169,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa do Mundo", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4457,19 +3030,13 @@ const PLAYERS_DATA = [
     "name": "Ricardo Bochini",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División"
-    ],
+    "leaguesPlayed": ["Primera División"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1954-01-25",
     "preferredFoot": "Esquerdo",
     "height": 168,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa Libertadores",
-      "Primera División"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa Libertadores", "Primera División"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4477,20 +3044,13 @@ const PLAYERS_DATA = [
     "name": "Ubaldo Fillol",
     "nationality": "Argentina",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Liga Brasileira"
-    ],
+    "leaguesPlayed": ["Primera División", "Liga Brasileira"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1950-07-21",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Primera División"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Primera División"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4498,19 +3058,13 @@ const PLAYERS_DATA = [
     "name": "Jairzinho",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Liga Francesa"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Liga Francesa"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1944-12-25",
     "preferredFoot": "Direito",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa do Mundo", "Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4518,18 +3072,13 @@ const PLAYERS_DATA = [
     "name": "Tostão",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1947-01-25",
     "preferredFoot": "Esquerdo",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa do Mundo", "Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4537,19 +3086,13 @@ const PLAYERS_DATA = [
     "name": "Carlos Alberto",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "NASL"
-    ],
+    "leaguesPlayed": ["Brasileirão", "NASL"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1944-07-17",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa do Mundo", "Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4557,18 +3100,13 @@ const PLAYERS_DATA = [
     "name": "Falcão",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1953-10-16",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4576,18 +3114,13 @@ const PLAYERS_DATA = [
     "name": "Sócrates",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1954-02-19",
     "preferredFoot": "Direito",
     "height": 192,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4595,21 +3128,13 @@ const PLAYERS_DATA = [
     "name": "Taffarel",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "Liga Turca"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Liga Turca"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1966-05-08",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4617,21 +3142,13 @@ const PLAYERS_DATA = [
     "name": "Dunga",
     "nationality": "Brasil",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "Liga Alemã"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Liga Alemã"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1963-10-31",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -4639,9 +3156,7 @@ const PLAYERS_DATA = [
     "name": "Youssoufa Moukoko",
     "nationality": "Alemanha",
     "currentClub": "Borussia Dortmund",
-    "leaguesPlayed": [
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Bundesliga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2004-11-20",
     "preferredFoot": "Direito",
@@ -4652,12 +3167,38 @@ const PLAYERS_DATA = [
     "difficulty": "easy"
   },
   {
+    "name": "Jamal Musiala",
+    "nationality": "Alemanha",
+    "currentClub": "Bayern Munich",
+    "leaguesPlayed": ["Premier League", "Bundesliga"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "2003-02-26",
+    "preferredFoot": "Direito",
+    "height": 184,
+    "individualTitles": [],
+    "teamTitles": ["Bundesliga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Florian Wirtz",
+    "nationality": "Alemanha",
+    "currentClub": "Bayer Leverkusen",
+    "leaguesPlayed": ["Bundesliga"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "2003-05-03",
+    "preferredFoot": "Direito",
+    "height": 177,
+    "individualTitles": [],
+    "teamTitles": ["Bundesliga"],
+    "playedWorldCup": false,
+    "difficulty": "easy"
+  },
+  {
     "name": "Evan Ferguson",
     "nationality": "Irlanda",
     "currentClub": "Brighton",
-    "leaguesPlayed": [
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2004-10-19",
     "preferredFoot": "Direito",
@@ -4671,10 +3212,7 @@ const PLAYERS_DATA = [
     "name": "Kaoru Mitoma",
     "nationality": "Japão",
     "currentClub": "Brighton",
-    "leaguesPlayed": [
-      "J-League",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["J-League", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-05-20",
     "preferredFoot": "Esquerdo",
@@ -4688,10 +3226,7 @@ const PLAYERS_DATA = [
     "name": "Pascal Groß",
     "nationality": "Alemanha",
     "currentClub": "Brighton",
-    "leaguesPlayed": [
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Bundesliga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1991-06-15",
     "preferredFoot": "Direito",
@@ -4705,21 +3240,13 @@ const PLAYERS_DATA = [
     "name": "Alexis Sánchez",
     "nationality": "Chile",
     "currentClub": "Inter Milan",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1988-12-19",
     "preferredFoot": "Direito",
     "height": 169,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Premier League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Premier League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -4727,23 +3254,13 @@ const PLAYERS_DATA = [
     "name": "Arturo Vidal",
     "nationality": "Chile",
     "currentClub": "Colo-Colo",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Bundesliga", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1987-05-22",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Serie A",
-      "Bundesliga",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa América", "Serie A", "Bundesliga", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4751,20 +3268,13 @@ const PLAYERS_DATA = [
     "name": "Gary Medel",
     "nationality": "Chile",
     "currentClub": "Vasco",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League",
-      "Serie A",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League", "Serie A", "Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1987-08-03",
     "preferredFoot": "Direito",
     "height": 171,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América"
-    ],
+    "teamTitles": ["Copa América"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4772,21 +3282,13 @@ const PLAYERS_DATA = [
     "name": "Claudio Bravo",
     "nationality": "Chile",
     "currentClub": "Real Betis",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Premier League"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1983-04-13",
     "preferredFoot": "Direito",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "La Liga",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa América", "La Liga", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4794,20 +3296,13 @@ const PLAYERS_DATA = [
     "name": "Eduardo Vargas",
     "nationality": "Chile",
     "currentClub": "Atlético Mineiro",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Premier League",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Premier League", "Brasileirão"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1989-11-20",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América"
-    ],
+    "teamTitles": ["Copa América"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4815,26 +3310,13 @@ const PLAYERS_DATA = [
     "name": "James Rodríguez",
     "nationality": "Colômbia",
     "currentClub": "São Paulo",
-    "leaguesPlayed": [
-      "Liga Colombiana",
-      "Primeira Liga",
-      "La Liga",
-      "Premier League",
-      "Bundesliga",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Liga Colombiana", "Primeira Liga", "La Liga", "Premier League", "Bundesliga", "Brasileirão"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1991-07-12",
     "preferredFoot": "Esquerdo",
     "height": 180,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Bundesliga"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Bundesliga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4842,23 +3324,13 @@ const PLAYERS_DATA = [
     "name": "Radamel Falcao",
     "nationality": "Colômbia",
     "currentClub": "Millonarios",
-    "leaguesPlayed": [
-      "Liga Colombiana",
-      "Primeira Liga",
-      "La Liga",
-      "Premier League",
-      "Monaco"
-    ],
+    "leaguesPlayed": ["Liga Colombiana", "Primeira Liga", "La Liga", "Premier League", "Monaco"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1986-02-10",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Primeira Liga",
-      "La Liga",
-      "Europa League"
-    ],
+    "teamTitles": ["Primeira Liga", "La Liga", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4866,20 +3338,13 @@ const PLAYERS_DATA = [
     "name": "Juan Cuadrado",
     "nationality": "Colômbia",
     "currentClub": "Inter Miami",
-    "leaguesPlayed": [
-      "Liga Colombiana",
-      "Serie A",
-      "Premier League",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Liga Colombiana", "Serie A", "Premier League", "MLS"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1988-05-26",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4887,12 +3352,7 @@ const PLAYERS_DATA = [
     "name": "David Ospina",
     "nationality": "Colômbia",
     "currentClub": "Al Nassr",
-    "leaguesPlayed": [
-      "Liga Colombiana",
-      "Premier League",
-      "Serie A",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Liga Colombiana", "Premier League", "Serie A", "Liga Saudita"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1988-08-31",
     "preferredFoot": "Direito",
@@ -4906,20 +3366,13 @@ const PLAYERS_DATA = [
     "name": "Carlos Bacca",
     "nationality": "Colômbia",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Colombiana",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Liga Colombiana", "La Liga", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1986-09-08",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Europa League",
-      "Serie A"
-    ],
+    "teamTitles": ["Europa League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4927,22 +3380,13 @@ const PLAYERS_DATA = [
     "name": "Edinson Cavani",
     "nationality": "Uruguai",
     "currentClub": "Boca Juniors",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Premier League",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Premier League", "Ligue 1"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1987-02-14",
     "preferredFoot": "Direito",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Premier League",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa América", "Premier League", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -4950,27 +3394,13 @@ const PLAYERS_DATA = [
     "name": "Luis Suárez",
     "nationality": "Uruguai",
     "currentClub": "Inter Miami",
-    "leaguesPlayed": [
-      "Primera División",
-      "Eredivisie",
-      "Premier League",
-      "La Liga",
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Primera División", "Eredivisie", "Premier League", "La Liga", "Serie A", "MLS"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1987-01-24",
     "preferredFoot": "Direito",
     "height": 182,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "La Liga",
-      "Serie A"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Copa América", "Champions League", "La Liga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -4978,22 +3408,13 @@ const PLAYERS_DATA = [
     "name": "Diego Godín",
     "nationality": "Uruguai",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1986-02-16",
     "preferredFoot": "Direito",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "La Liga",
-      "Serie A",
-      "Europa League"
-    ],
+    "teamTitles": ["Copa América", "La Liga", "Serie A", "Europa League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5001,20 +3422,13 @@ const PLAYERS_DATA = [
     "name": "Fernando Muslera",
     "nationality": "Uruguai",
     "currentClub": "Galatasaray",
-    "leaguesPlayed": [
-      "Primera División",
-      "Ligue 1",
-      "Liga Turca"
-    ],
+    "leaguesPlayed": ["Primera División", "Ligue 1", "Liga Turca"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1986-06-16",
     "preferredFoot": "Direito",
     "height": 190,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Liga Turca"
-    ],
+    "teamTitles": ["Copa América", "Liga Turca"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5022,20 +3436,13 @@ const PLAYERS_DATA = [
     "name": "Álvaro Recoba",
     "nationality": "Uruguai",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Liga Grega"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Liga Grega"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1976-03-17",
     "preferredFoot": "Esquerdo",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A",
-      "UEFA Cup"
-    ],
+    "teamTitles": ["Serie A", "UEFA Cup"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5043,20 +3450,13 @@ const PLAYERS_DATA = [
     "name": "Enzo Francescoli",
     "nationality": "Uruguai",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "Ligue 1",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Primera División", "Ligue 1", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1961-11-12",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa América", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5064,21 +3464,13 @@ const PLAYERS_DATA = [
     "name": "Rubén Sosa",
     "nationality": "Uruguai",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Primera División",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Primera División", "La Liga", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1966-04-25",
     "preferredFoot": "Esquerdo",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "La Liga",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "La Liga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5086,18 +3478,13 @@ const PLAYERS_DATA = [
     "name": "Radja Nainggolan",
     "nationality": "Bélgica",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Serie A", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1988-05-04",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5105,20 +3492,13 @@ const PLAYERS_DATA = [
     "name": "Eden Hazard",
     "nationality": "Bélgica",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1991-01-07",
     "preferredFoot": "Esquerdo",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League",
-      "La Liga"
-    ],
+    "teamTitles": ["Premier League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5126,19 +3506,13 @@ const PLAYERS_DATA = [
     "name": "Dries Mertens",
     "nationality": "Bélgica",
     "currentClub": "Galatasaray",
-    "leaguesPlayed": [
-      "Eredivisie",
-      "Serie A",
-      "Liga Turca"
-    ],
+    "leaguesPlayed": ["Eredivisie", "Serie A", "Liga Turca"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1987-05-06",
     "preferredFoot": "Direito",
     "height": 169,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5146,19 +3520,13 @@ const PLAYERS_DATA = [
     "name": "Jan Vertonghen",
     "nationality": "Bélgica",
     "currentClub": "Anderlecht",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Premier League",
-      "Liga Portuguesa"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Premier League", "Liga Portuguesa"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1987-04-24",
     "preferredFoot": "Esquerdo",
     "height": 189,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League"
-    ],
+    "teamTitles": ["Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5166,19 +3534,13 @@ const PLAYERS_DATA = [
     "name": "Toby Alderweireld",
     "nationality": "Bélgica",
     "currentClub": "Royal Antwerp",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Premier League", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1989-03-02",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League"
-    ],
+    "teamTitles": ["Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5186,21 +3548,13 @@ const PLAYERS_DATA = [
     "name": "Axel Witsel",
     "nationality": "Bélgica",
     "currentClub": "Atlético Madrid",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Liga Russa",
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Liga Russa", "Bundesliga", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1989-01-12",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Bundesliga",
-      "La Liga"
-    ],
+    "teamTitles": ["Bundesliga", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5208,18 +3562,13 @@ const PLAYERS_DATA = [
     "name": "Youri Tielemans",
     "nationality": "Bélgica",
     "currentClub": "Aston Villa",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1997-05-07",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "FA Cup"
-    ],
+    "teamTitles": ["FA Cup"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -5227,19 +3576,13 @@ const PLAYERS_DATA = [
     "name": "Romelu Lukaku",
     "nationality": "Bélgica",
     "currentClub": "Roma",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Premier League",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Premier League", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1993-05-13",
     "preferredFoot": "Direito",
     "height": 191,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -5247,17 +3590,13 @@ const PLAYERS_DATA = [
     "name": "Domenico Berardi",
     "nationality": "Itália",
     "currentClub": "Sassuolo",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1994-08-01",
     "preferredFoot": "Esquerdo",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa"
-    ],
+    "teamTitles": ["Eurocopa"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -5265,17 +3604,13 @@ const PLAYERS_DATA = [
     "name": "Giacomo Raspadori",
     "nationality": "Itália",
     "currentClub": "Napoli",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2000-02-18",
     "preferredFoot": "Direito",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -5283,18 +3618,13 @@ const PLAYERS_DATA = [
     "name": "Manuel Locatelli",
     "nationality": "Itália",
     "currentClub": "Juventus",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1998-01-08",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -5302,10 +3632,7 @@ const PLAYERS_DATA = [
     "name": "Nicolò Zaniolo",
     "nationality": "Itália",
     "currentClub": "Aston Villa",
-    "leaguesPlayed": [
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1999-07-02",
     "preferredFoot": "Direito",
@@ -5319,10 +3646,7 @@ const PLAYERS_DATA = [
     "name": "Gianluca Scamacca",
     "nationality": "Itália",
     "currentClub": "Atalanta",
-    "leaguesPlayed": [
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1999-01-01",
     "preferredFoot": "Direito",
@@ -5336,17 +3660,13 @@ const PLAYERS_DATA = [
     "name": "Davide Calabria",
     "nationality": "Itália",
     "currentClub": "AC Milan",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1996-12-06",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -5354,19 +3674,27 @@ const PLAYERS_DATA = [
     "name": "Alessandro Florenzi",
     "nationality": "Itália",
     "currentClub": "AC Milan",
-    "leaguesPlayed": [
-      "Serie A",
-      "La Liga",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Serie A", "La Liga", "Ligue 1"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1991-03-11",
     "preferredFoot": "Direito",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
+    "playedWorldCup": false,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Gianluigi Donnarumma",
+    "nationality": "Itália",
+    "currentClub": "Paris Saint-Germain",
+    "leaguesPlayed": ["Serie A", "Ligue 1"],
+    "primaryPosition": "Goleiro",
+    "dateOfBirth": "1999-02-25",
+    "preferredFoot": "Direito",
+    "height": 196,
+    "individualTitles": [],
+    "teamTitles": ["Eurocopa", "Ligue 1"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -5374,19 +3702,13 @@ const PLAYERS_DATA = [
     "name": "Lorenzo Insigne",
     "nationality": "Itália",
     "currentClub": "Toronto FC",
-    "leaguesPlayed": [
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Serie A", "MLS"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1991-06-04",
     "preferredFoot": "Direito",
     "height": 163,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": false,
     "difficulty": "medium"
   },
@@ -5394,21 +3716,13 @@ const PLAYERS_DATA = [
     "name": "Ciro Immobile",
     "nationality": "Itália",
     "currentClub": "Lazio",
-    "leaguesPlayed": [
-      "Serie A",
-      "Bundesliga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Serie A", "Bundesliga", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1990-02-20",
     "preferredFoot": "Direito",
     "height": 185,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "medium"
   },
@@ -5416,20 +3730,13 @@ const PLAYERS_DATA = [
     "name": "Marco Verratti",
     "nationality": "Itália",
     "currentClub": "Al Arabi",
-    "leaguesPlayed": [
-      "Serie A",
-      "Ligue 1",
-      "Liga do Catar"
-    ],
+    "leaguesPlayed": ["Serie A", "Ligue 1", "Liga do Catar"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1992-11-05",
     "preferredFoot": "Direito",
     "height": 165,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Eurocopa", "Ligue 1"],
     "playedWorldCup": false,
     "difficulty": "medium"
   },
@@ -5437,20 +3744,13 @@ const PLAYERS_DATA = [
     "name": "Jorginho",
     "nationality": "Itália",
     "currentClub": "Arsenal",
-    "leaguesPlayed": [
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Serie A", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1991-12-20",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Eurocopa", "Champions League", "Premier League"],
     "playedWorldCup": false,
     "difficulty": "medium"
   },
@@ -5458,19 +3758,13 @@ const PLAYERS_DATA = [
     "name": "Leonardo Bonucci",
     "nationality": "Itália",
     "currentClub": "Fenerbahçe",
-    "leaguesPlayed": [
-      "Serie A",
-      "Liga Turca"
-    ],
+    "leaguesPlayed": ["Serie A", "Liga Turca"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1987-05-01",
     "preferredFoot": "Direito",
     "height": 190,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": false,
     "difficulty": "medium"
   },
@@ -5478,19 +3772,13 @@ const PLAYERS_DATA = [
     "name": "Giorgio Chiellini",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Serie A", "MLS"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1984-08-14",
     "preferredFoot": "Esquerdo",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": false,
     "difficulty": "medium"
   },
@@ -5498,20 +3786,13 @@ const PLAYERS_DATA = [
     "name": "Gianluca Vialli",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1964-07-09",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Serie A",
-      "Premier League"
-    ],
+    "teamTitles": ["Champions League", "Serie A", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5519,19 +3800,13 @@ const PLAYERS_DATA = [
     "name": "Roberto Mancini",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1964-11-27",
     "preferredFoot": "Esquerdo",
     "height": 179,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A",
-      "Premier League"
-    ],
+    "teamTitles": ["Serie A", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5539,17 +3814,13 @@ const PLAYERS_DATA = [
     "name": "Gianluca Pagliuca",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1966-12-18",
     "preferredFoot": "Direito",
     "height": 190,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5557,18 +3828,13 @@ const PLAYERS_DATA = [
     "name": "Walter Zenga",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Serie A", "Premier League"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1960-04-28",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5576,20 +3842,13 @@ const PLAYERS_DATA = [
     "name": "Roberto Donadoni",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Serie A", "MLS"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1963-09-09",
     "preferredFoot": "Direito",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5597,19 +3856,13 @@ const PLAYERS_DATA = [
     "name": "Demetrio Albertini",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Serie A", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1971-08-23",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5617,19 +3870,13 @@ const PLAYERS_DATA = [
     "name": "Christian Vieri",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A",
-      "La Liga",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Serie A", "La Liga", "Ligue 1"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1973-07-12",
     "preferredFoot": "Direito",
     "height": 185,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5637,19 +3884,13 @@ const PLAYERS_DATA = [
     "name": "Filippo Inzaghi",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1973-08-09",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5657,19 +3898,13 @@ const PLAYERS_DATA = [
     "name": "Alessandro Costacurta",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1966-04-24",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -5677,19 +3912,13 @@ const PLAYERS_DATA = [
     "name": "Franco Baresi",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1960-05-08",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5697,18 +3926,27 @@ const PLAYERS_DATA = [
     "name": "Mauro Tassotti",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1960-01-19",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Champions League", "Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "hard"
+  },
+  {
+    "name": "Roberto Baggio",
+    "nationality": "Itália",
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["Serie A"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1967-02-18",
+    "preferredFoot": "Direito",
+    "height": 174,
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5716,19 +3954,13 @@ const PLAYERS_DATA = [
     "name": "Salvatore Schillaci",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1964-12-01",
     "preferredFoot": "Direito",
     "height": 175,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5736,22 +3968,13 @@ const PLAYERS_DATA = [
     "name": "Paolo Rossi",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1956-09-23",
     "preferredFoot": "Direito",
     "height": 175,
-    "individualTitles": [
-      "Chuteira de Ouro",
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "individualTitles": ["Chuteira de Ouro", "Bola de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5759,20 +3982,13 @@ const PLAYERS_DATA = [
     "name": "Tarcisio Burgnich",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1939-04-25",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Eurocopa",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5780,17 +3996,13 @@ const PLAYERS_DATA = [
     "name": "Giancarlo Antognoni",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1954-04-01",
     "preferredFoot": "Direito",
     "height": 177,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5798,18 +4010,13 @@ const PLAYERS_DATA = [
     "name": "Bruno Conti",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1955-03-13",
     "preferredFoot": "Esquerdo",
     "height": 169,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5817,19 +4024,13 @@ const PLAYERS_DATA = [
     "name": "Marco Tardelli",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1954-09-24",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5837,19 +4038,13 @@ const PLAYERS_DATA = [
     "name": "Antonio Cabrini",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1957-10-08",
     "preferredFoot": "Esquerdo",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5857,18 +4052,13 @@ const PLAYERS_DATA = [
     "name": "Claudio Gentile",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1953-09-27",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5876,19 +4066,13 @@ const PLAYERS_DATA = [
     "name": "Sandro Mazzola",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1942-11-08",
     "preferredFoot": "Direito",
     "height": 179,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5896,18 +4080,13 @@ const PLAYERS_DATA = [
     "name": "Luigi Riva",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1944-11-07",
     "preferredFoot": "Esquerdo",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5915,18 +4094,41 @@ const PLAYERS_DATA = [
     "name": "Giancarlo De Sisti",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1943-03-13",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "hard"
+  },
+  {
+    "name": "Gianni Rivera",
+    "nationality": "Itália",
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["Serie A"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1943-08-18",
+    "preferredFoot": "Direito",
+    "height": 175,
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "hard"
+  },
+  {
+    "name": "Giacinto Facchetti",
+    "nationality": "Itália",
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["Serie A"],
+    "primaryPosition": "Defensor",
+    "dateOfBirth": "1942-07-18",
+    "preferredFoot": "Esquerdo",
+    "height": 191,
+    "individualTitles": [],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5934,18 +4136,13 @@ const PLAYERS_DATA = [
     "name": "Sandro Salvadore",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1939-11-29",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5953,18 +4150,27 @@ const PLAYERS_DATA = [
     "name": "Enrico Albertosi",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1939-11-02",
     "preferredFoot": "Direito",
     "height": 182,
     "individualTitles": [],
-    "teamTitles": [
-      "Eurocopa",
-      "Serie A"
-    ],
+    "teamTitles": ["Eurocopa", "Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "hard"
+  },
+  {
+    "name": "Gianni Rivera",
+    "nationality": "Itália",
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["Serie A"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1943-08-18",
+    "preferredFoot": "Direito",
+    "height": 175,
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -5972,17 +4178,13 @@ const PLAYERS_DATA = [
     "name": "Valentino Mazzola",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1919-01-26",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "hard"
   },
@@ -5990,20 +4192,13 @@ const PLAYERS_DATA = [
     "name": "Silvio Piola",
     "nationality": "Itália",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1913-09-29",
     "preferredFoot": "Direito",
     "height": 178,
-    "individualTitles": [
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Serie A"
-    ],
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Copa do Mundo", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "hard"
   },
@@ -6011,20 +4206,13 @@ const PLAYERS_DATA = [
     "name": "Gabigol",
     "nationality": "Brasil",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "Primeira Liga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Primeira Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1996-08-30",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6032,19 +4220,13 @@ const PLAYERS_DATA = [
     "name": "Bruno Henrique",
     "nationality": "Brasil",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Bundesliga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1990-12-30",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6052,20 +4234,13 @@ const PLAYERS_DATA = [
     "name": "Arrascaeta",
     "nationality": "Uruguai",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Primera División",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Primera División", "Brasileirão"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1994-06-01",
     "preferredFoot": "Esquerdo",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão",
-      "Copa América"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão", "Copa América"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6073,19 +4248,13 @@ const PLAYERS_DATA = [
     "name": "Pedro",
     "nationality": "Brasil",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-06-20",
     "preferredFoot": "Direito",
     "height": 185,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6093,21 +4262,13 @@ const PLAYERS_DATA = [
     "name": "Gerson",
     "nationality": "Brasil",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Ligue 1"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1997-05-20",
     "preferredFoot": "Esquerdo",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão", "Ligue 1"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6115,18 +4276,13 @@ const PLAYERS_DATA = [
     "name": "Everton Ribeiro",
     "nationality": "Brasil",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1989-04-10",
     "preferredFoot": "Esquerdo",
     "height": 174,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6134,22 +4290,13 @@ const PLAYERS_DATA = [
     "name": "Hulk",
     "nationality": "Brasil",
     "currentClub": "Atlético Mineiro",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Primeira Liga",
-      "Liga Russa",
-      "Liga Chinesa"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Primeira Liga", "Liga Russa", "Liga Chinesa"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1986-07-25",
     "preferredFoot": "Esquerdo",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão",
-      "Primeira Liga",
-      "Liga Russa"
-    ],
+    "teamTitles": ["Brasileirão", "Primeira Liga", "Liga Russa"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6157,19 +4304,13 @@ const PLAYERS_DATA = [
     "name": "Paulinho",
     "nationality": "Brasil",
     "currentClub": "Atlético Mineiro",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Liga Chinesa"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Liga Chinesa"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1988-07-25",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão",
-      "Liga Chinesa"
-    ],
+    "teamTitles": ["Brasileirão", "Liga Chinesa"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6177,18 +4318,13 @@ const PLAYERS_DATA = [
     "name": "Raphael Veiga",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1995-06-19",
     "preferredFoot": "Esquerdo",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6196,17 +4332,13 @@ const PLAYERS_DATA = [
     "name": "Endrick",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2006-07-21",
     "preferredFoot": "Direito",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6214,19 +4346,13 @@ const PLAYERS_DATA = [
     "name": "Dudu",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Liga Ucraniana"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Liga Ucraniana"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1992-01-07",
     "preferredFoot": "Esquerdo",
     "height": 166,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6234,18 +4360,13 @@ const PLAYERS_DATA = [
     "name": "Weverton",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1987-12-13",
     "preferredFoot": "Direito",
     "height": 189,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6253,18 +4374,13 @@ const PLAYERS_DATA = [
     "name": "Yuri Alberto",
     "nationality": "Brasil",
     "currentClub": "Corinthians",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Liga Russa"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Liga Russa"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2001-03-18",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6272,18 +4388,13 @@ const PLAYERS_DATA = [
     "name": "Renato Augusto",
     "nationality": "Brasil",
     "currentClub": "Corinthians",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Liga Chinesa"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Liga Chinesa"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1988-02-08",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6291,18 +4402,13 @@ const PLAYERS_DATA = [
     "name": "Cássio",
     "nationality": "Brasil",
     "currentClub": "Corinthians",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1987-06-06",
     "preferredFoot": "Direito",
     "height": 195,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6310,19 +4416,13 @@ const PLAYERS_DATA = [
     "name": "Calleri",
     "nationality": "Argentina",
     "currentClub": "São Paulo",
-    "leaguesPlayed": [
-      "Primera División",
-      "Premier League",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Primera División", "Premier League", "Brasileirão"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1993-02-14",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6330,19 +4430,13 @@ const PLAYERS_DATA = [
     "name": "Lucas Moura",
     "nationality": "Brasil",
     "currentClub": "São Paulo",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Ligue 1", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1992-08-13",
     "preferredFoot": "Direito",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League"
-    ],
+    "teamTitles": ["Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6350,18 +4444,13 @@ const PLAYERS_DATA = [
     "name": "Rafinha",
     "nationality": "Brasil",
     "currentClub": "São Paulo",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Bundesliga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1993-09-12",
     "preferredFoot": "Direito",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6369,11 +4458,7 @@ const PLAYERS_DATA = [
     "name": "Andreas Pereira",
     "nationality": "Brasil",
     "currentClub": "Fulham",
-    "leaguesPlayed": [
-      "Premier League",
-      "La Liga",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Premier League", "La Liga", "Brasileirão"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1996-01-01",
     "preferredFoot": "Direito",
@@ -6387,20 +4472,13 @@ const PLAYERS_DATA = [
     "name": "Pavel Nedvěd",
     "nationality": "República Tcheca",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Tcheca",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Liga Tcheca", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1972-08-30",
     "preferredFoot": "Esquerdo",
     "height": 177,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -6408,23 +4486,27 @@ const PLAYERS_DATA = [
     "name": "Andriy Shevchenko",
     "nationality": "Ucrânia",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Ucraniana",
-      "Serie A",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Ucraniana", "Serie A", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1976-09-29",
     "preferredFoot": "Direito",
     "height": 183,
-    "individualTitles": [
-      "Bola de Ouro",
-      "Chuteira de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro", "Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Rivaldo",
+    "nationality": "Brasil",
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["Brasileirão", "La Liga", "Serie A", "Liga Grega"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1972-04-19",
+    "preferredFoot": "Esquerdo",
+    "height": 186,
+    "individualTitles": ["Bola de Ouro", "FIFA The Best"],
+    "teamTitles": ["Copa do Mundo", "Copa América", "Champions League", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -6432,23 +4514,13 @@ const PLAYERS_DATA = [
     "name": "Luis Figo",
     "nationality": "Portugal",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Liga Portuguesa",
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Liga Portuguesa", "La Liga", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1972-11-04",
     "preferredFoot": "Direito",
     "height": 180,
-    "individualTitles": [
-      "Bola de Ouro"
-    ],
-    "teamTitles": [
-      "Champions League",
-      "La Liga",
-      "Serie A"
-    ],
+    "individualTitles": ["Bola de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "medium"
   },
@@ -6456,23 +4528,27 @@ const PLAYERS_DATA = [
     "name": "Thiago Silva",
     "nationality": "Brasil",
     "currentClub": "Fluminense",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Ligue 1", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1984-09-22",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "Ligue 1",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Champions League", "Ligue 1", "Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Marquinhos",
+    "nationality": "Brasil",
+    "currentClub": "Paris Saint-Germain",
+    "leaguesPlayed": ["Brasileirão", "Ligue 1"],
+    "primaryPosition": "Defensor",
+    "dateOfBirth": "1994-05-14",
+    "preferredFoot": "Direito",
+    "height": 183,
+    "individualTitles": [],
+    "teamTitles": ["Copa América", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6480,19 +4556,13 @@ const PLAYERS_DATA = [
     "name": "Vinícius Júnior",
     "nationality": "Brasil",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2000-07-12",
     "preferredFoot": "Esquerdo",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6500,19 +4570,13 @@ const PLAYERS_DATA = [
     "name": "Rodrygo",
     "nationality": "Brasil",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2001-01-09",
     "preferredFoot": "Esquerdo",
     "height": 174,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6520,19 +4584,41 @@ const PLAYERS_DATA = [
     "name": "Eder Militão",
     "nationality": "Brasil",
     "currentClub": "Real Madrid",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1998-01-18",
     "preferredFoot": "Direito",
     "height": 186,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Champions League", "La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Alisson",
+    "nationality": "Brasil",
+    "currentClub": "Liverpool",
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Premier League"],
+    "primaryPosition": "Goleiro",
+    "dateOfBirth": "1992-10-02",
+    "preferredFoot": "Direito",
+    "height": 193,
+    "individualTitles": [],
+    "teamTitles": ["Copa América", "Champions League", "Premier League"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Ederson",
+    "nationality": "Brasil",
+    "currentClub": "Manchester City",
+    "leaguesPlayed": ["Brasileirão", "Primeira Liga", "Premier League"],
+    "primaryPosition": "Goleiro",
+    "dateOfBirth": "1993-08-17",
+    "preferredFoot": "Esquerdo",
+    "height": 188,
+    "individualTitles": [],
+    "teamTitles": ["Copa América", "Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6540,22 +4626,13 @@ const PLAYERS_DATA = [
     "name": "Fabinho",
     "nationality": "Brasil",
     "currentClub": "Al Ittihad",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Ligue 1",
-      "Premier League",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Ligue 1", "Premier League", "Liga Saudita"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1993-10-23",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Champions League",
-      "Premier League",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Champions League", "Premier League", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6563,22 +4640,13 @@ const PLAYERS_DATA = [
     "name": "Roberto Firmino",
     "nationality": "Brasil",
     "currentClub": "Al Ahli",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Bundesliga",
-      "Premier League",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Bundesliga", "Premier League", "Liga Saudita"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1991-10-02",
     "preferredFoot": "Direito",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Champions League",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa América", "Champions League", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6586,23 +4654,27 @@ const PLAYERS_DATA = [
     "name": "Philippe Coutinho",
     "nationality": "Brasil",
     "currentClub": "Al Duhail",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "La Liga",
-      "Premier League",
-      "Bundesliga",
-      "Liga do Catar"
-    ],
+    "leaguesPlayed": ["Brasileirão", "La Liga", "Premier League", "Bundesliga", "Liga do Catar"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1992-06-12",
     "preferredFoot": "Direito",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "La Liga",
-      "Bundesliga"
-    ],
+    "teamTitles": ["Copa América", "La Liga", "Bundesliga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Gabriel Jesus",
+    "nationality": "Brasil",
+    "currentClub": "Arsenal",
+    "leaguesPlayed": ["Brasileirão", "Premier League"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1997-04-03",
+    "preferredFoot": "Direito",
+    "height": 175,
+    "individualTitles": [],
+    "teamTitles": ["Copa América", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6610,18 +4682,13 @@ const PLAYERS_DATA = [
     "name": "Richarlison",
     "nationality": "Brasil",
     "currentClub": "Tottenham",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-05-10",
     "preferredFoot": "Direito",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América"
-    ],
+    "teamTitles": ["Copa América"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6629,21 +4696,13 @@ const PLAYERS_DATA = [
     "name": "Raphinha",
     "nationality": "Brasil",
     "currentClub": "Barcelona",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Ligue 1",
-      "Premier League",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Ligue 1", "Premier League", "La Liga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1996-12-14",
     "preferredFoot": "Esquerdo",
     "height": 176,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa América", "La Liga"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6651,20 +4710,27 @@ const PLAYERS_DATA = [
     "name": "Antony",
     "nationality": "Brasil",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Eredivisie",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Eredivisie", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2000-02-24",
     "preferredFoot": "Esquerdo",
     "height": 172,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Eredivisie"
-    ],
+    "teamTitles": ["Copa América", "Eredivisie"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Bruno Guimarães",
+    "nationality": "Brasil",
+    "currentClub": "Newcastle",
+    "leaguesPlayed": ["Brasileirão", "Ligue 1", "Premier League"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1997-11-16",
+    "preferredFoot": "Direito",
+    "height": 182,
+    "individualTitles": [],
+    "teamTitles": ["Copa América"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6672,11 +4738,7 @@ const PLAYERS_DATA = [
     "name": "Joelinton",
     "nationality": "Brasil",
     "currentClub": "Newcastle",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Bundesliga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Bundesliga", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1996-08-14",
     "preferredFoot": "Direito",
@@ -6687,24 +4749,30 @@ const PLAYERS_DATA = [
     "difficulty": "easy"
   },
   {
+    "name": "Douglas Luiz",
+    "nationality": "Brasil",
+    "currentClub": "Aston Villa",
+    "leaguesPlayed": ["Brasileirão", "Premier League"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1998-05-09",
+    "preferredFoot": "Esquerdo",
+    "height": 178,
+    "individualTitles": [],
+    "teamTitles": ["Copa América"],
+    "playedWorldCup": false,
+    "difficulty": "easy"
+  },
+  {
     "name": "Lucas Paquetá",
     "nationality": "Brasil",
     "currentClub": "West Ham",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "Ligue 1", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1997-08-27",
     "preferredFoot": "Esquerdo",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6712,20 +4780,13 @@ const PLAYERS_DATA = [
     "name": "Danilo",
     "nationality": "Brasil",
     "currentClub": "Juventus",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Primeira Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Primeira Liga", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1991-07-15",
     "preferredFoot": "Direito",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6733,19 +4794,13 @@ const PLAYERS_DATA = [
     "name": "Alex Sandro",
     "nationality": "Brasil",
     "currentClub": "Juventus",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1991-01-26",
     "preferredFoot": "Esquerdo",
     "height": 181,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa América",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa América", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6753,18 +4808,13 @@ const PLAYERS_DATA = [
     "name": "Bremer",
     "nationality": "Brasil",
     "currentClub": "Juventus",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1997-03-18",
     "preferredFoot": "Esquerdo",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6772,17 +4822,13 @@ const PLAYERS_DATA = [
     "name": "Gustavo Scarpa",
     "nationality": "Brasil",
     "currentClub": "Atlético Mineiro",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1994-01-05",
     "preferredFoot": "Esquerdo",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6790,18 +4836,13 @@ const PLAYERS_DATA = [
     "name": "Zé Rafael",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1993-05-16",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6809,20 +4850,13 @@ const PLAYERS_DATA = [
     "name": "Gustavo Gómez",
     "nationality": "Paraguai",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Primera División",
-      "Serie A",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Primera División", "Serie A", "Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1993-05-06",
     "preferredFoot": "Direito",
     "height": 185,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6830,22 +4864,13 @@ const PLAYERS_DATA = [
     "name": "Felipe Melo",
     "nationality": "Brasil",
     "currentClub": "Fluminense",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A",
-      "La Liga",
-      "Liga Turca"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A", "La Liga", "Liga Turca"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1983-06-26",
     "preferredFoot": "Direito",
     "height": 183,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -6853,20 +4878,13 @@ const PLAYERS_DATA = [
     "name": "Germán Cano",
     "nationality": "Argentina",
     "currentClub": "Fluminense",
-    "leaguesPlayed": [
-      "Primera División",
-      "Liga Colombiana",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Primera División", "Liga Colombiana", "Brasileirão"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1988-02-02",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6874,18 +4892,13 @@ const PLAYERS_DATA = [
     "name": "John Kennedy",
     "nationality": "Brasil",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2003-05-10",
     "preferredFoot": "Direito",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6893,18 +4906,13 @@ const PLAYERS_DATA = [
     "name": "Ayrton Lucas",
     "nationality": "Brasil",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1997-06-19",
     "preferredFoot": "Esquerdo",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6912,18 +4920,13 @@ const PLAYERS_DATA = [
     "name": "Fabricio Bruno",
     "nationality": "Brasil",
     "currentClub": "Flamengo",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1996-02-12",
     "preferredFoot": "Direito",
     "height": 192,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6931,18 +4934,13 @@ const PLAYERS_DATA = [
     "name": "Wesley",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1999-03-26",
     "preferredFoot": "Esquerdo",
     "height": 185,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6950,18 +4948,13 @@ const PLAYERS_DATA = [
     "name": "Murilo",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1997-03-27",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6969,18 +4962,13 @@ const PLAYERS_DATA = [
     "name": "Rony",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1995-05-11",
     "preferredFoot": "Direito",
     "height": 170,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -6988,18 +4976,13 @@ const PLAYERS_DATA = [
     "name": "Mayke",
     "nationality": "Brasil",
     "currentClub": "Palmeiras",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1992-11-10",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa Libertadores",
-      "Brasileirão"
-    ],
+    "teamTitles": ["Copa Libertadores", "Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -7007,18 +4990,13 @@ const PLAYERS_DATA = [
     "name": "Fagner",
     "nationality": "Brasil",
     "currentClub": "Corinthians",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Bundesliga"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1989-06-11",
     "preferredFoot": "Direito",
     "height": 168,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7026,17 +5004,13 @@ const PLAYERS_DATA = [
     "name": "Gil",
     "nationality": "Brasil",
     "currentClub": "Corinthians",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1987-06-12",
     "preferredFoot": "Direito",
     "height": 192,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -7044,17 +5018,13 @@ const PLAYERS_DATA = [
     "name": "Rafael",
     "nationality": "Brasil",
     "currentClub": "São Paulo",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1990-05-08",
     "preferredFoot": "Direito",
     "height": 190,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -7062,18 +5032,13 @@ const PLAYERS_DATA = [
     "name": "Arboleda",
     "nationality": "Equador",
     "currentClub": "São Paulo",
-    "leaguesPlayed": [
-      "Primera División",
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Primera División", "Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1991-10-28",
     "preferredFoot": "Direito",
     "height": 187,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7081,17 +5046,13 @@ const PLAYERS_DATA = [
     "name": "Igor Vinicius",
     "nationality": "Brasil",
     "currentClub": "São Paulo",
-    "leaguesPlayed": [
-      "Brasileirão"
-    ],
+    "leaguesPlayed": ["Brasileirão"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1997-02-27",
     "preferredFoot": "Direito",
     "height": 175,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -7099,39 +5060,167 @@ const PLAYERS_DATA = [
     "name": "Lucas",
     "nationality": "Brasil",
     "currentClub": "São Paulo",
-    "leaguesPlayed": [
-      "Brasileirão",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Brasileirão", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1994-08-13",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Brasileirão"
-    ],
+    "teamTitles": ["Brasileirão"],
     "playedWorldCup": false,
+    "difficulty": "easy"
+  },
+  {
+    "name": "James Rodríguez",
+    "nationality": "Colômbia",
+    "currentClub": "São Paulo",
+    "leaguesPlayed": ["Liga Colombiana", "Primeira Liga", "La Liga", "Bundesliga", "Premier League", "Liga do Catar", "Brasileirão"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1991-07-12",
+    "preferredFoot": "Esquerdo",
+    "height": 180,
+    "individualTitles": ["Chuteira de Ouro"],
+    "teamTitles": ["Champions League", "La Liga", "Bundesliga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Eden Hazard",
+    "nationality": "Bélgica",
+    "currentClub": "Aposentado",
+    "leaguesPlayed": ["Ligue 1", "Premier League", "La Liga"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1991-01-07",
+    "preferredFoot": "Direito",
+    "height": 175,
+    "individualTitles": [],
+    "teamTitles": ["Premier League", "La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Kevin De Bruyne",
+    "nationality": "Bélgica",
+    "currentClub": "Manchester City",
+    "leaguesPlayed": ["Bundesliga", "Premier League"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1991-06-28",
+    "preferredFoot": "Direito",
+    "height": 181,
+    "individualTitles": [],
+    "teamTitles": ["Champions League", "Premier League"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Romelu Lukaku",
+    "nationality": "Bélgica",
+    "currentClub": "Roma",
+    "leaguesPlayed": ["Premier League", "Serie A"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1993-05-13",
+    "preferredFoot": "Direito",
+    "height": 191,
+    "individualTitles": [],
+    "teamTitles": ["Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Thibaut Courtois",
+    "nationality": "Bélgica",
+    "currentClub": "Real Madrid",
+    "leaguesPlayed": ["Liga Belga", "Premier League", "La Liga"],
+    "primaryPosition": "Goleiro",
+    "dateOfBirth": "1992-05-11",
+    "preferredFoot": "Direito",
+    "height": 199,
+    "individualTitles": [],
+    "teamTitles": ["Champions League", "Premier League", "La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Jan Vertonghen",
+    "nationality": "Bélgica",
+    "currentClub": "Anderlecht",
+    "leaguesPlayed": ["Liga Belga", "Premier League", "Liga Portuguesa"],
+    "primaryPosition": "Defensor",
+    "dateOfBirth": "1987-04-24",
+    "preferredFoot": "Esquerdo",
+    "height": 189,
+    "individualTitles": [],
+    "teamTitles": ["Premier League"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Toby Alderweireld",
+    "nationality": "Bélgica",
+    "currentClub": "Royal Antwerp",
+    "leaguesPlayed": ["Liga Belga", "Premier League", "Liga Saudita"],
+    "primaryPosition": "Defensor",
+    "dateOfBirth": "1989-03-02",
+    "preferredFoot": "Direito",
+    "height": 186,
+    "individualTitles": [],
+    "teamTitles": [],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Axel Witsel",
+    "nationality": "Bélgica",
+    "currentClub": "Atlético Madrid",
+    "leaguesPlayed": ["Liga Belga", "Liga Russa", "Bundesliga", "Liga Chinesa", "La Liga"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1989-01-12",
+    "preferredFoot": "Direito",
+    "height": 186,
+    "individualTitles": [],
+    "teamTitles": ["La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Dries Mertens",
+    "nationality": "Bélgica",
+    "currentClub": "Galatasaray",
+    "leaguesPlayed": ["Liga Belga", "Eredivisie", "Serie A", "Liga Turca"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1987-05-06",
+    "preferredFoot": "Direito",
+    "height": 169,
+    "individualTitles": [],
+    "teamTitles": ["Serie A"],
+    "playedWorldCup": true,
     "difficulty": "easy"
   },
   {
     "name": "Yannick Carrasco",
     "nationality": "Bélgica",
     "currentClub": "Al Shabab",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "La Liga",
-      "Liga Chinesa",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Liga Belga", "La Liga", "Liga Chinesa", "Liga Saudita"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1993-09-04",
     "preferredFoot": "Esquerdo",
     "height": 180,
     "individualTitles": [],
-    "teamTitles": [
-      "La Liga"
-    ],
+    "teamTitles": ["La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Youri Tielemans",
+    "nationality": "Bélgica",
+    "currentClub": "Aston Villa",
+    "leaguesPlayed": ["Liga Belga", "Premier League"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "1997-05-07",
+    "preferredFoot": "Direito",
+    "height": 176,
+    "individualTitles": [],
+    "teamTitles": [],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7139,11 +5228,7 @@ const PLAYERS_DATA = [
     "name": "Leander Dendoncker",
     "nationality": "Bélgica",
     "currentClub": "Napoli",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Premier League",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Premier League", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1995-04-15",
     "preferredFoot": "Direito",
@@ -7157,10 +5242,7 @@ const PLAYERS_DATA = [
     "name": "Charles De Ketelaere",
     "nationality": "Bélgica",
     "currentClub": "Atalanta",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2001-03-10",
     "preferredFoot": "Direito",
@@ -7174,11 +5256,7 @@ const PLAYERS_DATA = [
     "name": "Amadou Onana",
     "nationality": "Bélgica",
     "currentClub": "Everton",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Ligue 1", "Premier League"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2001-08-16",
     "preferredFoot": "Direito",
@@ -7192,19 +5270,13 @@ const PLAYERS_DATA = [
     "name": "Jérémy Doku",
     "nationality": "Bélgica",
     "currentClub": "Manchester City",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Ligue 1",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Ligue 1", "Premier League"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2002-05-27",
     "preferredFoot": "Esquerdo",
     "height": 173,
     "individualTitles": [],
-    "teamTitles": [
-      "Premier League"
-    ],
+    "teamTitles": ["Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7212,11 +5284,7 @@ const PLAYERS_DATA = [
     "name": "Lois Openda",
     "nationality": "Bélgica",
     "currentClub": "RB Leipzig",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Ligue 1",
-      "Bundesliga"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Ligue 1", "Bundesliga"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2000-02-16",
     "preferredFoot": "Direito",
@@ -7230,10 +5298,7 @@ const PLAYERS_DATA = [
     "name": "Johan Bakayoko",
     "nationality": "Bélgica",
     "currentClub": "PSV",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "Eredivisie"
-    ],
+    "leaguesPlayed": ["Liga Belga", "Eredivisie"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2003-04-20",
     "preferredFoot": "Esquerdo",
@@ -7247,10 +5312,7 @@ const PLAYERS_DATA = [
     "name": "Arthur Vermeeren",
     "nationality": "Bélgica",
     "currentClub": "Atlético Madrid",
-    "leaguesPlayed": [
-      "Liga Belga",
-      "La Liga"
-    ],
+    "leaguesPlayed": ["Liga Belga", "La Liga"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "2005-02-07",
     "preferredFoot": "Direito",
@@ -7261,25 +5323,30 @@ const PLAYERS_DATA = [
     "difficulty": "easy"
   },
   {
+    "name": "Antoine Griezmann",
+    "nationality": "França",
+    "currentClub": "Atlético Madrid",
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1991-03-21",
+    "preferredFoot": "Esquerdo",
+    "height": 176,
+    "individualTitles": [],
+    "teamTitles": ["Copa do Mundo", "Eurocopa", "La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
     "name": "Olivier Giroud",
     "nationality": "França",
     "currentClub": "AC Milan",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League",
-      "Serie A",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League", "Serie A", "MLS"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1986-09-30",
     "preferredFoot": "Direito",
     "height": 193,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7287,19 +5354,13 @@ const PLAYERS_DATA = [
     "name": "Paul Pogba",
     "nationality": "França",
     "currentClub": "Aposentado",
-    "leaguesPlayed": [
-      "Premier League",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Premier League", "Serie A"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1993-03-15",
     "preferredFoot": "Direito",
     "height": 191,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Serie A"
-    ],
+    "teamTitles": ["Copa do Mundo", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7307,21 +5368,13 @@ const PLAYERS_DATA = [
     "name": "N'Golo Kanté",
     "nationality": "França",
     "currentClub": "Al Ittihad",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League",
-      "Liga Saudita"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League", "Liga Saudita"],
     "primaryPosition": "Meio-campo",
     "dateOfBirth": "1991-03-29",
     "preferredFoot": "Direito",
     "height": 171,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Premier League",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa do Mundo", "Premier League", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7329,20 +5382,13 @@ const PLAYERS_DATA = [
     "name": "Hugo Lloris",
     "nationality": "França",
     "currentClub": "Los Angeles FC",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Premier League",
-      "MLS"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Premier League", "MLS"],
     "primaryPosition": "Goleiro",
     "dateOfBirth": "1986-12-26",
     "preferredFoot": "Direito",
     "height": 188,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Premier League"
-    ],
+    "teamTitles": ["Copa do Mundo", "Premier League"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7350,21 +5396,27 @@ const PLAYERS_DATA = [
     "name": "Raphaël Varane",
     "nationality": "França",
     "currentClub": "Manchester United",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "La Liga",
-      "Premier League"
-    ],
+    "leaguesPlayed": ["Ligue 1", "La Liga", "Premier League"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1993-04-25",
     "preferredFoot": "Direito",
     "height": 191,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Champions League",
-      "La Liga"
-    ],
+    "teamTitles": ["Copa do Mundo", "Champions League", "La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Benjamin Pavard",
+    "nationality": "França",
+    "currentClub": "Inter Milan",
+    "leaguesPlayed": ["Ligue 1", "Bundesliga", "Serie A"],
+    "primaryPosition": "Defensor",
+    "dateOfBirth": "1996-03-28",
+    "preferredFoot": "Direito",
+    "height": 186,
+    "individualTitles": [],
+    "teamTitles": ["Copa do Mundo", "Bundesliga", "Serie A"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7372,21 +5424,13 @@ const PLAYERS_DATA = [
     "name": "Lucas Hernandez",
     "nationality": "França",
     "currentClub": "Paris Saint-Germain",
-    "leaguesPlayed": [
-      "La Liga",
-      "Bundesliga",
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["La Liga", "Bundesliga", "Ligue 1"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1996-02-14",
     "preferredFoot": "Esquerdo",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Copa do Mundo",
-      "Bundesliga",
-      "Ligue 1"
-    ],
+    "teamTitles": ["Copa do Mundo", "Bundesliga", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7394,18 +5438,69 @@ const PLAYERS_DATA = [
     "name": "Theo Hernandez",
     "nationality": "França",
     "currentClub": "AC Milan",
-    "leaguesPlayed": [
-      "La Liga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["La Liga", "Serie A"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "1997-10-06",
     "preferredFoot": "Esquerdo",
     "height": 184,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Aurélien Tchouaméni",
+    "nationality": "França",
+    "currentClub": "Real Madrid",
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "2000-01-27",
+    "preferredFoot": "Direito",
+    "height": 187,
+    "individualTitles": [],
+    "teamTitles": ["La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Eduardo Camavinga",
+    "nationality": "França",
+    "currentClub": "Real Madrid",
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "2002-11-10",
+    "preferredFoot": "Esquerdo",
+    "height": 182,
+    "individualTitles": [],
+    "teamTitles": ["Champions League", "La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Jules Koundé",
+    "nationality": "França",
+    "currentClub": "Barcelona",
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
+    "primaryPosition": "Defensor",
+    "dateOfBirth": "1998-11-12",
+    "preferredFoot": "Direito",
+    "height": 178,
+    "individualTitles": [],
+    "teamTitles": ["La Liga"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Ousmane Dembélé",
+    "nationality": "França",
+    "currentClub": "Paris Saint-Germain",
+    "leaguesPlayed": ["Ligue 1", "La Liga"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1997-05-15",
+    "preferredFoot": "Esquerdo",
+    "height": 178,
+    "individualTitles": [],
+    "teamTitles": ["La Liga", "Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7413,19 +5508,27 @@ const PLAYERS_DATA = [
     "name": "Marcus Thuram",
     "nationality": "França",
     "currentClub": "Inter Milan",
-    "leaguesPlayed": [
-      "Ligue 1",
-      "Bundesliga",
-      "Serie A"
-    ],
+    "leaguesPlayed": ["Ligue 1", "Bundesliga", "Serie A"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "1997-08-06",
     "preferredFoot": "Direito",
     "height": 192,
     "individualTitles": [],
-    "teamTitles": [
-      "Serie A"
-    ],
+    "teamTitles": ["Serie A"],
+    "playedWorldCup": true,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Randal Kolo Muani",
+    "nationality": "França",
+    "currentClub": "Paris Saint-Germain",
+    "leaguesPlayed": ["Ligue 1", "Bundesliga"],
+    "primaryPosition": "Atacante",
+    "dateOfBirth": "1998-12-05",
+    "preferredFoot": "Direito",
+    "height": 187,
+    "individualTitles": [],
+    "teamTitles": ["Ligue 1"],
     "playedWorldCup": true,
     "difficulty": "easy"
   },
@@ -7433,17 +5536,27 @@ const PLAYERS_DATA = [
     "name": "Bradley Barcola",
     "nationality": "França",
     "currentClub": "Paris Saint-Germain",
-    "leaguesPlayed": [
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Ligue 1"],
     "primaryPosition": "Atacante",
     "dateOfBirth": "2002-09-02",
     "preferredFoot": "Direito",
     "height": 178,
     "individualTitles": [],
-    "teamTitles": [
-      "Ligue 1"
-    ],
+    "teamTitles": ["Ligue 1"],
+    "playedWorldCup": false,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Warren Zaïre-Emery",
+    "nationality": "França",
+    "currentClub": "Paris Saint-Germain",
+    "leaguesPlayed": ["Ligue 1"],
+    "primaryPosition": "Meio-campo",
+    "dateOfBirth": "2006-03-08",
+    "preferredFoot": "Direito",
+    "height": 178,
+    "individualTitles": [],
+    "teamTitles": ["Ligue 1"],
     "playedWorldCup": false,
     "difficulty": "easy"
   },
@@ -7451,9 +5564,7 @@ const PLAYERS_DATA = [
     "name": "Leny Yoro",
     "nationality": "França",
     "currentClub": "Lille",
-    "leaguesPlayed": [
-      "Ligue 1"
-    ],
+    "leaguesPlayed": ["Ligue 1"],
     "primaryPosition": "Defensor",
     "dateOfBirth": "2005-11-13",
     "preferredFoot": "Direito",
